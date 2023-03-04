@@ -1,0 +1,10 @@
+.letter {
+	font-size: 5rem;
+	padding: .3rem;
+	display: inline-block;
+	opacity: 0;
+  }
+.box{
+	overflow: hidden;
+}
+  
