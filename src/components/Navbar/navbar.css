@@ -44,11 +44,13 @@
   width: 500px;
   height: 50vh;
   position: absolute;
-  bottom: 65px;
+  bottom: -400px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -10%);
+  /* transform: translateY(80%); */
   background-color: var(--color-grey-one);
   border-radius: 10px;
+  transition: 1s ease;
 }
 .navbar-links {
   flex: 1;
@@ -73,4 +75,47 @@
   width: 40px;
   height: 40px;
   background-color: red;
+}
+/* .app__navbar-menu {
+  width: 500px;
+  height: 50vh;
+  position: absolute;
+  bottom: 65px;
+  left: 50%;
+  transform: translateX(0%);
+  transform: translateY(0%);
+  background-color: var(--color-grey-one);
+  border-radius: 10px;
+} */
+.show {
+  transform: translate(-50%, 80%);
+  /* transition: 0.5s ease-in-out; */
+  transition: 1s ease;
+}
+/* @keyframes appear {
+
+  0% {
+    width: 0;
+    height: 0;
+
+  }
+  100% {
+    width: 500px;
+    height: 50vh;
+  }
+} */
+
+.hihde {
+  visibility: hidden;
+  /* transition: 0.5s ease-in-out;
+  position: absolute;
+  bottom: 65px; */
+  /* width: 0;
+  height: 0; */
+  /* visibility: hidden; */
+  /* position: absolute;
+  bottom: 65px;
+  left: 50%;
+  transition: 0.5s ease-in-out;
+  animation: close 0.5s forwards; */
 }

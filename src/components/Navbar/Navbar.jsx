@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { HeadText } from "../../components";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -10,15 +11,21 @@ const Navbar = () => {
         <div>
           <h4>WH</h4>
         </div>
-        <div>
+        <div onClick={() => setShowMenu(true)}>
           <h4>Accueil</h4>
         </div>
       </div>
-      <div className="app__navbar-toggle-menu">
+
+      <div
+        className={showMenu ? "app__navbar-toggle-menu" : "hide"}
+        // className="app__navbar-toggle-menu"
+
+        // style={{ position: "absolute", bottom: "65px", display: "flex" }}
+      >
         <ul className="navbar-links">
           <li>
             <a href="#" className="link">
-              Accueil
+              Accueils
             </a>
           </li>
           <li>
@@ -37,7 +44,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <span className="close" />
+        <span className="close" onClick={() => setShowMenu(false)} />
       </div>
     </div>
   );
