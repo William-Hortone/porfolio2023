@@ -1,6 +1,8 @@
 import React from "react";
-import "./header.css";
 import images from "../../constants/images";
+// import { FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+
+import "./header.css";
 
 const Header = () => {
   return (
@@ -9,6 +11,9 @@ const Header = () => {
         <img src={images.logo} alt="logo img" />
       </div>
       <div className="app__header-social_media">
+        {/* <FaInstagram />
+        <FaLinkedinIn />
+        <FaYoutube /> */}
         <span style={{ color: "white" }}>hello</span>
       </div>
     </div>
