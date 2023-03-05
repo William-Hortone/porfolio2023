@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,20 +12,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+@font-face {
+  font-family: "CustomFontFamily";
+  src: url("./fonts/Redwing-Medium.otf") format("truetype");
+  /* Add other font formats here if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
 
+body {
+  font-family: "CustomFontFamily", sans-serif;
+  /* Use the font family where necessary */
+}
 
 :root {
-  --font-base: 'Cormorant Upright', serif;
-  --font-alt: 'Open Sans', sans-serif;
-  --color-black: #0C0C0C;
-  --color-grey-one: #E7E4DF;
-  --color-white: #FFFFFF;
-  --color-grey: #AAAAAA;
+  --font-base: "Cormorant Upright", serif;
+  --font-alt: "Open Sans", sans-serif;
+  --color-black: #0c0c0c;
+  --color-grey-one: #e7e4df;
+  --color-white: #ffffff;
+  --color-grey: #aaaaaa;
 
-
-  --color-golden: #DCCA87;
+  --color-golden: #dcca87;
   --color-gray: #545454;
-  --color-crimson: #F5EFDB;
+  --color-crimson: #f5efdb;
 }
 
 * {
@@ -39,4 +49,3 @@ a {
   color: unset;
   text-decoration: none;
 }
-

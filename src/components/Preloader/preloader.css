@@ -1,0 +1,30 @@
+.app__preloader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-black);
+  transition: 0.3s ease-out;
+}
+
+svg text {
+  stroke: #0ed1c1;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  stroke-width: 5;
+  animation: textAnimate 3s infinite alternate;
+  /* font-family: "CustomFontFamily"; */
+}
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: -20%;
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffset: 20%;
+  }
+}
