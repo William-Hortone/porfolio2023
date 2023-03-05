@@ -15,7 +15,7 @@
 }
 .sliding-content {
   display: flex;
-  animation: move 10s linear infinite;
+  animation: move 15s linear infinite;
   color: #000;
 }
 @keyframes move {

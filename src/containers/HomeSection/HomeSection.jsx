@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, HeadText, SlidingText } from "../../components";
+import { Header, HeadText, SlidingText, Navbar } from "../../components";
 import "./homeSection.css";
 
 const HomeSection = () => {
@@ -10,6 +10,7 @@ const HomeSection = () => {
         <HeadText textContent="William" />
         <SlidingText />
         <HeadText textContent="Hortone" />
+        {/* <Navbar /> */}
       </div>
     </div>
   );

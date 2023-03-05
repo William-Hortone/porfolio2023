@@ -3,7 +3,6 @@
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  /* background-color: red; */
   padding: 2.5rem 4rem;
   gap: 4rem;
 }
@@ -40,7 +39,6 @@
   color: #000;
   padding-left: 4rem;
 }
-
 .slider_container {
   width: auto;
   height: 0;
