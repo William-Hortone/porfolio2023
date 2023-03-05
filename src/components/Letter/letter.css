@@ -3,6 +3,8 @@
   padding: 0.3rem;
   display: inline-block;
   opacity: 0;
+  font-family: var(--font-base);
+  text-transform: uppercase;
 }
 .box {
   overflow: hidden;

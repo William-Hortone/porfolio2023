@@ -3,8 +3,8 @@
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  background-color: red;
-  padding: 0 4rem;
+  /* background-color: red; */
+  padding: 2.5rem 4rem;
   gap: 4rem;
 }
 .app__homeSection-container h2 {

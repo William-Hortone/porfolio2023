@@ -15,18 +15,12 @@ code {
 @font-face {
   font-family: "CustomFontFamily";
   src: url("./fonts/Redwing-Medium.otf") format("truetype");
-  /* Add other font formats here if necessary */
   font-weight: normal;
   font-style: normal;
 }
 
-body {
-  font-family: "CustomFontFamily", sans-serif;
-  /* Use the font family where necessary */
-}
-
 :root {
-  --font-base: "Cormorant Upright", serif;
+  --font-base: "CustomFontFamily", serif;
   --font-alt: "Open Sans", sans-serif;
   --color-black: #0c0c0c;
   --color-grey-one: #e7e4df;

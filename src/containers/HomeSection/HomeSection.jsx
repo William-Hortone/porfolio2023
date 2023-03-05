@@ -1,6 +1,6 @@
 import React from "react";
+import { Header, HeadText, SlidingText } from "../../components";
 import "./homeSection.css";
-import { Header, HeadText } from "../../components";
 
 const HomeSection = () => {
   return (
@@ -8,7 +8,7 @@ const HomeSection = () => {
       <Header />
       <div className="app__homeSection-container">
         <HeadText textContent="William" />
-
+        <SlidingText />
         <HeadText textContent="Hortone" />
       </div>
     </div>
