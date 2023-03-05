@@ -43,3 +43,20 @@
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: var(--color-white);
 }
+
+@media screen and (min-width: 2000px) {
+  .custom__button {
+    font-size: 37px;
+    line-height: 67px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .section__padding {
+    padding: 4rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+}

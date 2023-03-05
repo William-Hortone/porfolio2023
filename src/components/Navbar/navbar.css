@@ -96,8 +96,11 @@
   font-size: 2rem;
   cursor: pointer;
   /* margin: 2rem; */
+  transition: transform 0.3s ease;
 }
-
+.close:hover {
+  transform: rotate(-45deg);
+}
 .show {
   /* transform: translate(-50%, 80%); */
   /* transition: 0.5s ease-in-out; */

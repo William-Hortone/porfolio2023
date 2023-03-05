@@ -14,3 +14,19 @@
 .box {
   overflow: hidden;
 }
+
+@media screen and (max-width: 1200px) {
+  .letter {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .letter {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .letter {
+    font-size: 3rem;
+  }
+}

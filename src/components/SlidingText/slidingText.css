@@ -33,3 +33,24 @@
   color: var(--color-white);
   text-transform: uppercase;
 }
+@media screen and (max-width: 1200px) {
+  .sliding-content span {
+    font-size: 5rem;
+  }
+  .app__slidingText {
+    height: 60px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sliding-content span {
+    font-size: 4rem;
+  }
+  .app__slidingText {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sliding-content span {
+    font-size: 3rem;
+  }
+}

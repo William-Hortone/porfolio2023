@@ -1,9 +1,9 @@
 .app__homeSection-container {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 110px);
   display: flex;
   flex-direction: column;
-  padding: 2.5rem 4rem;
+  /* padding: 2.5rem 4rem; */
   gap: 4rem;
 }
 .app__homeSection-container h2 {
@@ -66,3 +66,22 @@
     transform: translateX(-100%);
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .app__homeSection-container {
+    /* gap: 3rem; */
+  }
+}
+@media screen and (max-width: 1000px) {
+  /* .letter {
+    font-size: 4rem;
+  } */
+  .app__homeSection-container {
+    gap: 3rem;
+  }
+}
+/* @media screen and (max-width: 500px) {
+  .letter {
+    font-size: 3rem;
+  }
+} */
