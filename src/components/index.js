@@ -7,6 +7,8 @@ import Title from "./Title/Title";
 import Preloader from "./Preloader/Preloader";
 import Skill from "./Skill/Skill";
 import Header from "./Header/Header";
+import HeadText from "./HeadText/HeadText";
+import SlidingText from "./SlidingText/SlidingText";
 
 export {
   CardImage,
@@ -18,4 +20,6 @@ export {
   Navbar,
   Skill,
   Header,
+  HeadText,
+  SlidingText,
 };
