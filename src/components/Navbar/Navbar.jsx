@@ -1,27 +1,26 @@
 import React, { useState } from "react";
 import { HeadText } from "../../components";
+import { FaTimes, FaSign } from "react-icons/fa";
 import "./navbar.css";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="app__navbar">
+    <div className={showMenu ? "app__navbar-opened" : "app__navbar"}>
       <div className="app__navbar-container">
-        <div>
-          <h4>WH</h4>
+        <div onClick={() => setShowMenu(true)} style={{ cursor: "pointer" }}>
+          <h4>Menu</h4>
         </div>
-        <div onClick={() => setShowMenu(true)}>
+        <div>
           <h4>Accueil</h4>
         </div>
       </div>
 
-      <div
-        className={showMenu ? "app__navbar-toggle-menu" : "hide"}
-        // className="app__navbar-toggle-menu"
-
-        // style={{ position: "absolute", bottom: "65px", display: "flex" }}
-      >
+      <div className={showMenu ? " app__navbar-toggle-menu " : "hide"}>
+        <span className="close" onClick={() => setShowMenu(false)}>
+          <FaTimes />
+        </span>
         <ul className="navbar-links">
           <li>
             <a href="#" className="link">
@@ -44,7 +43,8 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <span className="close" onClick={() => setShowMenu(false)} />
+
+        {/* <span className="close" onClick={() => setShowMenu(false)} /> */}
       </div>
     </div>
   );

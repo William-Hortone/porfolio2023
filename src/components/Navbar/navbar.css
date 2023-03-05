@@ -1,3 +1,16 @@
+.app__navbar-opened {
+  width: 500px;
+  height: 60px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  padding: 0.3rem;
+  background-color: var(--color-grey-one);
+  z-index: 5000;
+  transition: width 0.5s ease;
+}
 .app__navbar {
   width: 300px;
   height: 60px;
@@ -9,6 +22,7 @@
   padding: 0.3rem;
   background-color: var(--color-grey-one);
   z-index: 5000;
+  transition: width 0.5s ease;
 }
 .app__navbar-container {
   width: 100%;
@@ -39,18 +53,21 @@
   font-family: var(--font-base);
   color: var(--color-black);
 }
-
 .app__navbar-toggle-menu {
+  /* display: none; */
   width: 500px;
   height: 50vh;
-  position: absolute;
-  bottom: -400px;
+  position: fixed;
+  bottom: 65px;
   left: 50%;
-  transform: translate(-50%, -10%);
-  /* transform: translateY(80%); */
+  display: flex;
+  flex-direction: column;
+  /* transform: translate(-50%, -10%); */
+  transform: translateX(-50%);
   background-color: var(--color-grey-one);
   border-radius: 10px;
   transition: 1s ease;
+  padding: 1rem;
 }
 .navbar-links {
   flex: 1;
@@ -69,43 +86,25 @@
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 .close {
-  position: absolute;
+  /* position: absolute;
   right: 10px;
-  top: 10px;
+  top: 10px; */
+  align-self: flex-end;
   width: 40px;
   height: 40px;
-  background-color: red;
+  /* background-color: red; */
+  font-size: 2rem;
+  cursor: pointer;
+  /* margin: 2rem; */
 }
-/* .app__navbar-menu {
-  width: 500px;
-  height: 50vh;
-  position: absolute;
-  bottom: 65px;
-  left: 50%;
-  transform: translateX(0%);
-  transform: translateY(0%);
-  background-color: var(--color-grey-one);
-  border-radius: 10px;
-} */
+
 .show {
-  transform: translate(-50%, 80%);
+  /* transform: translate(-50%, 80%); */
   /* transition: 0.5s ease-in-out; */
   transition: 1s ease;
 }
-/* @keyframes appear {
 
-  0% {
-    width: 0;
-    height: 0;
-
-  }
-  100% {
-    width: 500px;
-    height: 50vh;
-  }
-} */
-
-.hihde {
+.hide {
   visibility: hidden;
   /* transition: 0.5s ease-in-out;
   position: absolute;

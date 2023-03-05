@@ -5,6 +5,11 @@
   opacity: 0;
   font-family: var(--font-base);
   text-transform: uppercase;
+
+  /* color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: var(--color-white); */
 }
 .box {
   overflow: hidden;
