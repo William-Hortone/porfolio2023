@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HeadText } from "../../components";
 import { FaTimes, FaSign } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -23,28 +24,38 @@ const Navbar = () => {
         </span>
         <ul className="navbar-links">
           <li>
-            <a href="#" className="link">
+            <Link to="/" className="link" onClick={() => setShowMenu(false)}>
               Accueils
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="link">
+            <Link
+              to="/about"
+              className="link"
+              onClick={() => setShowMenu(false)}
+            >
               Apropos
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="link">
+            <Link
+              to="/projects"
+              className="link"
+              onClick={() => setShowMenu(false)}
+            >
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="link">
+            <Link
+              to="/about"
+              className="link"
+              onClick={() => setShowMenu(false)}
+            >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
-
-        {/* <span className="close" onClick={() => setShowMenu(false)} /> */}
       </div>
     </div>
   );

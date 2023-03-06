@@ -54,7 +54,6 @@
   color: var(--color-black);
 }
 .app__navbar-toggle-menu {
-  /* display: none; */
   width: 500px;
   height: 50vh;
   position: fixed;
@@ -106,20 +105,8 @@
 .show {
   transition: 1s ease;
 }
-
 .hide {
   visibility: hidden;
-  /* transition: 0.5s ease-in-out;
-  position: absolute;
-  bottom: 65px; */
-  /* width: 0;
-  height: 0; */
-  /* visibility: hidden; */
-  /* position: absolute;
-  bottom: 65px;
-  left: 50%;
-  transition: 0.5s ease-in-out;
-  animation: close 0.5s forwards; */
 }
 
 @media screen and (min-width: 2000px) {

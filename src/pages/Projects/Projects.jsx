@@ -1,7 +1,12 @@
 import React from "react";
-
+import { Navbar } from "../../components";
 const Projects = () => {
-  return <div>Project</div>;
+  return (
+    <div>
+      Project
+      <Navbar />
+    </div>
+  );
 };
 
 export default Projects;

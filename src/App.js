@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-// import Effect from "./Letter";
-import "./App.css";
-// import Letter from "./Letter";
-// import Image from "./Image";
-import { Preloader } from "./components";
+import { Preloader, Navbar } from "./components";
 import { Home, About, Projects } from "./pages";
+import { Routes, Route } from "react-router-dom";
+
+import "./App.css";
 
 const App = () => {
   // const text = "William Hortone";
@@ -27,9 +26,19 @@ const App = () => {
 
   return (
     <>
-      {/* <Preloader /> */}
+      {/* <Navbar /> */}
       {showPreloader && <Preloader />}
-      {!showPreloader && <Home />}
+      {!showPreloader && (
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      )}
+
+      {/* <Preloader /> */}
+      {/* {showPreloader && <Preloader />}
+      {!showPreloader && <Home />} */}
     </>
     // <div className="container">
     //   {letters.map((letter, index) => (
