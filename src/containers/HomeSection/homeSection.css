@@ -4,8 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
-  /* padding: 2.5rem 4rem; */
+
   gap: 4rem;
 }
 .app__homeSection-container h2 {

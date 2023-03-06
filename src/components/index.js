@@ -9,6 +9,7 @@ import Skill from "./Skill/Skill";
 import Header from "./Header/Header";
 import HeadText from "./HeadText/HeadText";
 import SlidingText from "./SlidingText/SlidingText";
+import CircleText from "./CircleText/CircleText";
 
 export {
   CardImage,
@@ -22,4 +23,5 @@ export {
   Header,
   HeadText,
   SlidingText,
+  CircleText,
 };

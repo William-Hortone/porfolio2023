@@ -44,7 +44,7 @@ const Navbar = () => {
         <ul className="navbar-links">
           <li>
             <Link to="/" className="link" onClick={() => setShowMenu(false)}>
-              Accueils
+              Accueil
             </Link>
           </li>
           <li>

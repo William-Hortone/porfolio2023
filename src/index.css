@@ -22,6 +22,7 @@ code {
 :root {
   --font-base: "CustomFontFamily", serif;
   --font-alt: "Open Sans", sans-serif;
+  --font-title: "Cormorant Upright", serif;
   --color-black: #0c0c0c;
   --color-grey-one: #e7e4df;
   --color-white: #ffffff;

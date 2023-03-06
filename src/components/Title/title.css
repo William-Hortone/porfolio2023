@@ -1,0 +1,19 @@
+.app__title h2 {
+  font-size: 3rem;
+  color: transparent;
+  font-family: var(--font-alt);
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: var(--color-white);
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 850px) {
+  .app__title h2 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .app__title h2 {
+    font-size: 2rem;
+  }
+}
