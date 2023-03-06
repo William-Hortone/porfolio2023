@@ -1,23 +1,10 @@
 import React, { useRef, useState } from "react";
-import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
+
 import images from "../../constants/images";
 
 import "./singleProject.css";
 
 const SingleProject = ({ title, text }) => {
-  // const vidRef = useRef();
-  // const [playVideo, setPlayVideo] = useState(false);
-
-  // const handleVideo = () => {
-  //   if (!playVideo) {
-  //     vidRef.current.play();
-  //     setPlayVideo(true);
-  //   } else {
-  //     vidRef.current.pause();
-  //     setPlayVideo(false);
-  //   }
-  // };
-
   return (
     <div className="app__singleProject">
       <div className="app__singleProject-left">
