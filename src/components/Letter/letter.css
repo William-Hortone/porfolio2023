@@ -14,7 +14,11 @@
 .box {
   overflow: hidden;
 }
-
+@media screen and (min-width: 2000px) {
+  .letter {
+    font-size: 10rem;
+  }
+}
 @media screen and (max-width: 1200px) {
   .letter {
     font-size: 5rem;

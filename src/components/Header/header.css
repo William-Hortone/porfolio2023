@@ -1,11 +1,10 @@
 .app__header {
   width: 100%;
-  height: 110px;
+  height: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 4rem;
-  /* background-color: red; */
 }
 .app__header-logo {
   width: auto;
@@ -25,6 +24,15 @@
 @media screen and (max-width: 750px) {
   .app__header {
     width: 100%;
-    height: 80px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__header {
+    padding: 0.5rem 2rem;
+  }
+  .app__header-logo {
+    height: 90%;
   }
 }
