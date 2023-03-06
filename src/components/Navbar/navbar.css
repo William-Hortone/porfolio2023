@@ -52,6 +52,7 @@
   font-size: 2rem;
   font-family: var(--font-base);
   color: var(--color-black);
+  font-weight: 100;
 }
 .app__navbar-toggle-menu {
   width: 500px;
