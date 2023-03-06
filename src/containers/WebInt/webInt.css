@@ -7,6 +7,7 @@
   margin: auto;
   overflow-x: hidden;
   background-color: var(--color-grey-one);
+  margin-bottom: 10rem;
 }
 .app__webInt-container {
   width: 100%;
@@ -80,6 +81,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .app__webInt {
+    margin-bottom: 7rem;
+  }
   .webInt-container-left h2 {
     font-size: 3rem;
   }
@@ -99,13 +103,14 @@
 @media screen and (max-width: 550px) {
   .app__webInt {
     height: 50vh;
+    margin-bottom: 5rem;
   }
   .webInt-container-left h2 {
     font-size: 2rem;
     text-align: center;
   }
   .webInt-container-right p {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     font-size: 16.5px;
     line-height: 1;
   }

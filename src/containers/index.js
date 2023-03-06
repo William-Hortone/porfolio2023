@@ -5,6 +5,7 @@ import Skills from "./Skills/Skills";
 import HomeSection from "./HomeSection/HomeSection";
 import Introduction from "./Introduction/Introduction";
 import WebInt from "./WebInt/WebInt";
+import RecentProjects from "./RecentProjects/RecentProjects";
 
 export {
   AboutMe,
@@ -14,4 +15,5 @@ export {
   WebInt,
   HomeSection,
   Introduction,
+  RecentProjects,
 };

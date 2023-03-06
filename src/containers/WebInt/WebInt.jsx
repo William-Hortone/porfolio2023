@@ -53,7 +53,6 @@ const WebInt = () => {
           ref={elementRef}
         >
           <h2>Intégrateur web</h2>
-          {/* <img src={images.wh_left} alt="" /> */}
         </div>
         <div
           className="webInt-container-right scroll-animation-right"

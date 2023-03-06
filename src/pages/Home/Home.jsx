@@ -1,6 +1,11 @@
 import React from "react";
-import { Navbar } from "../../components";
-import { HomeSection, Introduction, WebInt } from "../../containers";
+import { Navbar, SlidingText } from "../../components";
+import {
+  HomeSection,
+  Introduction,
+  WebInt,
+  RecentProjects,
+} from "../../containers";
 
 const Home = () => {
   return (
@@ -10,8 +15,10 @@ const Home = () => {
     >
       <Navbar />
       <HomeSection />
-      {/* <Introduction /> */}
+      <Introduction />
       <WebInt />
+      <SlidingText />
+      <RecentProjects />
     </div>
   );
 };

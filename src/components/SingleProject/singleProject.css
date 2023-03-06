@@ -1,0 +1,39 @@
+.app__singleProject {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 2rem;
+  background-color: var(--color-white);
+}
+.app__singleProject-left {
+  flex: 3;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  /* background-color: rgb(101, 226, 43); */
+}
+.app__singleProject-left h2 {
+  font-size: 3rem;
+  font-family: var(--font-base);
+  font-weight: 100;
+  color: var(--color-black);
+  text-transform: capitalize;
+}
+.app__singleProject-left p {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: var(--font-base);
+  color: var(--color-black);
+  line-height: 1.2;
+}
+.app__singleProject-right {
+  flex: 2;
+  height: 100%;
+  border-radius: 10px;
+  background-color: blueviolet;
+  padding: 0.5rem;
+}
