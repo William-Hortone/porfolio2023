@@ -11,8 +11,9 @@
 }
 .app__introduction-left p {
   font-size: 20px;
-  line-height: 2;
+  line-height: 2.5;
   color: var(--color-white);
+  font-family: var(--font-base);
 }
 .app__introduction-right {
   flex: 1;

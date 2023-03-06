@@ -4,10 +4,13 @@ import { HomeSection, Introduction, WebInt } from "../../containers";
 
 const Home = () => {
   return (
-    <div className="app__home" style={{ backgroundColor: "#0c0c0c" }}>
+    <div
+      className="app__home"
+      style={{ backgroundColor: "#0c0c0c", overflowX: "hidden" }}
+    >
       <Navbar />
       <HomeSection />
-      <Introduction />
+      {/* <Introduction /> */}
       <WebInt />
     </div>
   );
