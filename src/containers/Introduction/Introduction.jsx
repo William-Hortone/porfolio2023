@@ -7,8 +7,7 @@ const Introduction = () => {
   return (
     <div className="app__introduction section__padding">
       <Title title="Me Concernant" />
-      <div className="app__introduction-left">
-        {/* <h4>Me concernant</h4> */}
+      <div className="app__introduction-box">
         <div className="space" />
         <p>
           JE SUIS ÉPRIS DES OUTILS INFORMATIQUES ET LES NOUVELLES TECHNOLOGIES,

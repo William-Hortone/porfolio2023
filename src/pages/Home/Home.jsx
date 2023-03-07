@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, SlidingText } from "../../components";
+import { Navbar, SlidingText, Footer } from "../../components";
 import {
   HomeSection,
   Introduction,
@@ -19,6 +19,7 @@ const Home = () => {
       <WebInt />
       <SlidingText />
       <RecentProjects />
+      <Footer />
     </div>
   );
 };

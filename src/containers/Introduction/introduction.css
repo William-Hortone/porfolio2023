@@ -6,7 +6,7 @@
   margin-bottom: 5rem;
   /* background-color: red; */
 }
-.app__introduction-left {
+.app__introduction-box {
   /* flex: 1; */
   /* background-color: red; */
   display: flex;
@@ -18,8 +18,9 @@
   /* height: 100px; */
   /* background-color: aquamarine; */
 }
-.app__introduction-left p {
+.app__introduction-box p {
   flex: 3;
+  padding-right: 8rem;
   font-size: 20px;
   line-height: 2.5;
   color: var(--color-white);
@@ -86,7 +87,7 @@
 }
 
 @media screen and (max-width: 1000) {
-  .app__introduction-left p {
+  .app__introduction-box p {
     font-size: 18px;
   }
 }
@@ -100,10 +101,10 @@
     flex: 0;
     display: none;
   }
-  .app__introduction-left {
+  .app__introduction-box {
     padding-top: 4rem;
   }
-  .app__introduction-left p {
+  .app__introduction-box p {
     font-size: 15px;
     flex: 1;
   }

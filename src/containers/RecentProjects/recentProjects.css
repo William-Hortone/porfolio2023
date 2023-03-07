@@ -3,6 +3,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  gap: 4rem;
   margin-top: 2rem;
   position: relative;
   /* background-color: antiquewhite; */
