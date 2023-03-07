@@ -5,10 +5,10 @@ import "./skill.css";
 
 const Skill = ({ skillTitle }) => {
   return (
-    <div className="app__skill">
+    <div className="app__skill glitch-container">
       {skillTitle}
-      <div className="app__skill-box-img">
-        <img src="" alt="" />
+      <div className="app__skill-box-img glitch-image">
+        <img src={images.logo} alt="kitten" />
       </div>
     </div>
   );

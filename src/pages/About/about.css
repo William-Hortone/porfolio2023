@@ -13,3 +13,28 @@
   padding-bottom: 0rem;
   /* padding: 4rem 0 1rem 0rem; */
 }
+.line {
+  height: 2px;
+  width: 90%;
+  margin-bottom: 10rem;
+  background-color: var(--color-white);
+}
+.app__about-languages {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.languages-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.languages-container h3 {
+  font-size: 2rem;
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-weight: 100;
+}

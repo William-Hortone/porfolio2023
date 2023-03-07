@@ -9,15 +9,23 @@
   position: relative;
 }
 .app__skill-box-img {
-  width: 100px;
-  height: 70px;
+  /* width: 100px;
+  height: 70px; */
   position: absolute;
   top: 50%;
   right: -50px;
   transform: translateY(-50%);
-  background-color: aqua;
+  /* background-color: aqua; */
   opacity: 0;
   transition: opacity 0.3s ease;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  /* animation: glitch 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  animation-play-state: paused; */
 }
 .app__skill-box-img img {
   width: 100%;
@@ -27,3 +35,18 @@
 .app__skill:hover .app__skill-box-img {
   opacity: 1;
 }
+
+/* .glitch-imadge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  animation: glitch 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  animation-play-state: paused;
+} */
+
+/* .glitch-container:hover .glitch-image {
+  animation-play-state: running;
+} */

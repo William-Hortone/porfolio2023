@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Header, Title, SlidingText } from "../../components";
-import { AboutMe, Skills } from "../../containers";
+import { AboutMe, Skills, Certificate } from "../../containers";
 
 import "./about.css";
 
@@ -15,6 +15,16 @@ const About = () => {
       <AboutMe />
       <SlidingText />
       <Skills />
+      <span className="line" />
+      <div className="app__about-languages section__padding">
+        <Title title="langues" />
+        <div className="languages-container">
+          <h3>Francais</h3>
+          <h3>Anglais</h3>
+          <h3>Mandarin</h3>
+        </div>
+      </div>
+      <Certificate />
       <Navbar />
     </div>
   );
