@@ -1,0 +1,29 @@
+.app__skill {
+  width: fit-content;
+  font-size: 2rem;
+  color: var(--color-white);
+  font-family: var(--font-base);
+  letter-spacing: 1.5px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  position: relative;
+}
+.app__skill-box-img {
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  transform: translateY(-50%);
+  background-color: aqua;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.app__skill-box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.app__skill:hover .app__skill-box-img {
+  opacity: 1;
+}
