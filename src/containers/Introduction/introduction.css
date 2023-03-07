@@ -96,6 +96,11 @@
         font-size: 16px;
       }
 } */
+@media screen and (max-width: 850px) {
+  .app__introduction-box p {
+    padding-right: 0rem;
+  }
+}
 @media screen and (max-width: 500px) {
   .space {
     flex: 0;
