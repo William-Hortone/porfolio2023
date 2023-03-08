@@ -15,9 +15,9 @@ const AboutMe = () => {
         <p>
           Je suis un développeur front-end, étudiant en Software Engineering en
           chine, j’aime le travail, l’apprentissage et me surpasser. C'est avec
-          le même enthousiasme que je réalise chaque projet. J'ai des
-          antécédents linguistiques dans la mesure où, en plus du français, je
-          parle aussi l'anglais et le mandarin.
+          le même enthousiasme que je réalise chaque projet. <br /> <br /> J'ai
+          des antécédents linguistiques dans la mesure où, en plus du français,
+          je parle aussi l'anglais et le mandarin.
         </p>
       </div>
     </div>
