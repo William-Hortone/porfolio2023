@@ -3,23 +3,27 @@
   height: 100%;
   background-color: var(--color-black);
 }
-
 .app__about-title {
   width: 100%;
   height: auto;
-  border-bottom: 2px solid var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  /* justify-content: center; */
+  /* border-bottom: 2px solid var(--color-white); */
   /* border-bottom: 2px solid red; */
   /* margin: 0 auto 5rem auto; */
   padding-bottom: 0rem;
   /* padding: 4rem 0 1rem 0rem; */
 }
 .line {
-  height: 2px;
-  width: 90%;
-  margin-bottom: 10rem;
+  height: 1px;
+  width: 100%;
+  /* margin-bottom: 10rem; */
   background-color: var(--color-white);
 }
-.app__about-languages {
+/* .app__about-languages {
   width: 100%;
   height: auto;
   display: flex;
@@ -37,4 +41,5 @@
   color: var(--color-white);
   font-family: var(--font-base);
   font-weight: 100;
-}
+  
+} */

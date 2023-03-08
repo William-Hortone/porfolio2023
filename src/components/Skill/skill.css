@@ -1,12 +1,15 @@
 .app__skill {
-  width: fit-content;
-  font-size: 2rem;
+  width: 48%;
+  position: relative;
+  /* background-color: aqua; */
+}
+.app__skill h4 {
+  font-size: 1.6rem;
   color: var(--color-white);
   font-family: var(--font-base);
-  letter-spacing: 1.5px;
-  line-height: 1.3;
+  letter-spacing: 1.2px;
+  line-height: 1.23;
   text-transform: uppercase;
-  position: relative;
 }
 .app__skill-box-img {
   /* width: 100px;
@@ -50,3 +53,38 @@
 /* .glitch-container:hover .glitch-image {
   animation-play-state: running;
 } */
+
+@media screen and (max-width: 1200px) {
+  .app__skill h4 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .app__skill {
+    width: fit-content;
+  }
+  .app__skill h4 {
+    font-size: 1.3rem;
+    /* letter-spacing: 1.2px; */
+
+    /* color: red; */
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .app__skill h4 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .app__skill h4 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .app__skill h4 {
+    font-size: 1rem;
+  }
+}

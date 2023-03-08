@@ -6,7 +6,7 @@ import "./skill.css";
 const Skill = ({ skillTitle }) => {
   return (
     <div className="app__skill glitch-container">
-      {skillTitle}
+      <h4>{skillTitle}</h4>
       <div className="app__skill-box-img glitch-image">
         <img src={images.logo} alt="kitten" />
       </div>
