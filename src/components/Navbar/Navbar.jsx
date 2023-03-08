@@ -67,7 +67,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/about"
+              to="contact"
               className="link"
               onClick={() => setShowMenu(false)}
             >
