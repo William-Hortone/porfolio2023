@@ -5,6 +5,7 @@
   flex-direction: column;
   gap: 4rem;
   margin-bottom: 4rem;
+  /* background-color: rgb(190, 114, 14); */
 }
 .app__certificate-container {
   width: 100%;
@@ -36,4 +37,41 @@
 .app__certificate-right-img {
   width: 90%;
   /* height: 100%; */
+}
+@media screen and (max-width: 1200px) {
+  .app__certificate {
+    height: 70vh;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .app__certificate-left p {
+    font-size: 17px;
+    color: var(--color-white);
+    font-family: var(--font-base);
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+  }
+  .app__certificate-right-img {
+    width: 100%;
+    /* height: 100%; */
+  }
+}
+@media screen and (max-width: 750px) {
+  .app__certificate {
+    margin-bottom: 0;
+  }
+  .app__certificate {
+    height: auto;
+  }
+  .app__certificate-container {
+    flex-direction: column;
+  }
+  .app__certificate-right-img {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .app__certificate-right-img {
+    width: 100%;
+  }
 }

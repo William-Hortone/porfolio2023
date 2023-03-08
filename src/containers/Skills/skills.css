@@ -5,9 +5,8 @@
   flex-direction: column;
   gap: 7rem;
   margin-top: 4rem;
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
   overflow-x: hidden;
-  /* border-bottom: 2px solid var(--color-white); */
 }
 .app__skills-container {
   width: 100%;
@@ -55,6 +54,8 @@
   .app__skills {
     width: 100%;
     height: auto;
+    gap: 5rem;
+    margin-top: 0rem;
   }
   .app__skills-container {
     flex-direction: column;
@@ -65,6 +66,11 @@
     /* display: flex;
     flex-wrap: wrap; */
     gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .app__skills {
+    gap: 3rem;
   }
 }
 @media screen and (max-width: 550px) {

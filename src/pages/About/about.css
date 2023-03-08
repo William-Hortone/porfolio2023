@@ -9,12 +9,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 3rem 4rem 0rem 6rem;
   gap: 2rem;
   /* justify-content: center; */
   /* border-bottom: 2px solid var(--color-white); */
   /* border-bottom: 2px solid red; */
   /* margin: 0 auto 5rem auto; */
   padding-bottom: 0rem;
+  /* background-color: red; */
   /* padding: 4rem 0 1rem 0rem; */
 }
 .line {
@@ -43,3 +45,19 @@
   font-weight: 100;
   
 } */
+
+/* @media screen and (max-width: 120px) {
+  .app__about-title {
+    padding: 3rem 4rem 0rem 4rem;
+  }
+} */
+@media screen and (max-width: 850px) {
+  .app__about-title {
+    padding: 3rem 4rem 0rem 4rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .app__about-title {
+    padding: 3rem 2rem 0rem 2rem;
+  }
+}

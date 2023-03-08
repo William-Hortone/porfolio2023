@@ -49,7 +49,7 @@
     height: 60vh;
   }
   .app__aboutMe-right p {
-    font-size: 15px;
+    font-size: 17px;
   }
 }
 
@@ -64,7 +64,12 @@
     height: 100%;
   }
   .app__aboutMe-right p {
-    font-size: 15px;
+    /* font-size: 15px; */
     padding: 1rem 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .app__aboutMe {
+    margin-bottom: 0rem;
   }
 }
