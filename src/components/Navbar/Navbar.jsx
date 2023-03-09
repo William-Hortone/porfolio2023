@@ -66,13 +66,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link
-              to="contact"
+            <a
+              href="#contact"
               className="link"
               onClick={() => setShowMenu(false)}
             >
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
