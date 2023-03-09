@@ -21,10 +21,13 @@
   gap: 1rem;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
   .app__header {
     width: 100%;
     height: 120px;
+  }
+  .app__header-logo {
+    height: 90%;
   }
 }
 
@@ -32,7 +35,12 @@
   .app__header {
     padding: 0.5rem 2rem;
   }
-  .app__header-logo {
+  /* .app__header-logo {
     height: 90%;
+  } */
+}
+@media screen and (max-width: 480px) {
+  .app__header-logo {
+    height: 80%;
   }
 }
