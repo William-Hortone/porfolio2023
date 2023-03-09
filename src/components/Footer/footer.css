@@ -5,8 +5,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: var(--color-white);
+  /* color: var(--color-white); */
 }
+/* .footer-color */
 .app__footer-box_titles {
   display: flex;
   justify-content: space-between;

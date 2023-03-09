@@ -18,7 +18,7 @@ const About = () => {
       <Skills />
       <span className="line" />
       <Certificate />
-      <Footer />
+      <Footer color={"color-white"} />
     </div>
   );
 };

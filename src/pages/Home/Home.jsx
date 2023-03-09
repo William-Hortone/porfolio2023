@@ -19,7 +19,7 @@ const Home = () => {
       <WebInt />
       <SlidingText />
       <RecentProjects />
-      <Footer />
+      <Footer color={"color-white"} />
     </div>
   );
 };

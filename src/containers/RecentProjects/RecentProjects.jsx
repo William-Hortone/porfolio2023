@@ -13,6 +13,10 @@ const RecentProjects = () => {
           typography animations, we decided to create a second set. In this
           volume, we explore some more ideas, usingperspective and sequential
           animations."
+          sProjectNInitialBg={"sp-new-bg"}
+          sProjectNewBg={"sp-initial-bg"}
+          initialColor={"text-initial-color"}
+          newColor={"text-initial-color"}
         />
         <SingleProject
           title="Ona Batiment"
@@ -20,6 +24,10 @@ const RecentProjects = () => {
           typography animations, we decided to create a second set. In this
           volume, we explore some more ideas, usingperspective and sequential
           animations."
+          sProjectNInitialBg={"sp-new-bg"}
+          sProjectNewBg={"sp-initial-bg"}
+          initialColor={"text-initial-color"}
+          newColor={"text-initial-color"}
         />
         <SingleProject
           title="Giricht Resto"
@@ -27,6 +35,10 @@ const RecentProjects = () => {
           typography animations, we decided to create a second set. In this
           volume, we explore some more ideas, usingperspective and sequential
           animations."
+          sProjectNInitialBg={"sp-new-bg"}
+          sProjectNewBg={"sp-initial-bg"}
+          initialColor={"text-initial-color"}
+          newColor={"text-initial-color"}
         />
         <span className="link_see-more">Voir plus</span>
       </div>

@@ -2,9 +2,9 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import "./footer.css";
 
-const Footer = () => {
+const Footer = ({ color }) => {
   return (
-    <div className="app__footer section__padding" id="contact">
+    <div className={`${color}` + " app__footer section__padding"} id="contact">
       <div className="app__footer-box_titles">
         <h3>TU EMBAUCHES ?</h3>
         <h3>UNE COLLABORATION ?</h3>

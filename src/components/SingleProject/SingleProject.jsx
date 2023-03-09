@@ -4,7 +4,14 @@ import images from "../../constants/images";
 
 import "./singleProject.css";
 
-const SingleProject = ({ title, text }) => {
+const SingleProject = ({
+  title,
+  text,
+  initialColor,
+  newColor,
+  sProjectNewBg,
+  sProjectNInitialBg,
+}) => {
   const elementRef = useRef(null);
 
   // useEffect(() => {
@@ -31,51 +38,69 @@ const SingleProject = ({ title, text }) => {
   //   };
   // }, []);
 
-  useEffect(() => {
-    const element = elementRef.current;
-    // const rightElement = rightElementRef.current;
+  // useEffect(() => {
 
-    const handleScroll = () => {
-      const scrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
-      const elementOffsetTop = element.offsetTop;
-      const elementHeight = element.offsetHeight;
+  const [scroll, setScroll] = useState(false);
 
-      // const rightElementOffsetTop = rightElement.offsetTop;
-      // const rightElementHeight = rightElement.offsetHeight;
+  const handleChangeBg = () => {
+    if (window.scrollY >= 900) {
+      setScroll(true);
+    } else setScroll(false);
+  };
+  window.addEventListener("scroll", handleChangeBg);
 
-      if (
-        scrollTop >
-        elementOffsetTop - window.innerHeight + elementHeight / 2
-      ) {
-        element.classList.add("animated");
-      } else {
-        element.classList.remove("animated");
-      }
-      // if (
-      //   scrollTop >
-      //   rightElementOffsetTop - window.innerHeight + rightElementHeight / 2
-      // ) {
-      //   rightElement.classList.add("animated");
-      // } else {
-      //   rightElement.classList.remove("animated");
-      // }
-    };
+  // const element = elementRef.current;
+  // const rightElement = rightElementRef.current;
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  // const handleScroll = () => {
+  //   const scrollTop =
+  //     window.pageYOffset || document.documentElement.scrollTop;
+  //   const elementOffsetTop = element.offsetTop;
+  //   const elementHeight = element.offsetHeight;
+
+  // const rightElementOffsetTop = rightElement.offsetTop;
+  // const rightElementHeight = rightElement.offsetHeight;
+
+  // if (
+  //   scrollTop >
+  //   elementOffsetTop - window.innerHeight + elementHeight / 2
+  // ) {
+  //   element.classList.add("animated");
+  // } else {
+  //   element.classList.remove("animated");
+  // }
+  // if (
+  //   scrollTop >
+  //   rightElementOffsetTop - window.innerHeight + rightElementHeight / 2
+  // ) {
+  //   rightElement.classList.add("animated");
+  // } else {
+  //   rightElement.classList.remove("animated");
+  // }
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   return (
     <div
-      className="app__singleProject scroll-animation-right-project"
-      ref={elementRef}
+      className={
+        scroll
+          ? `${sProjectNewBg}` +
+            " app__singleProject scroll-animation-right-project"
+          : `${sProjectNInitialBg}` +
+            " app__singleProject scroll-animation-right-project"
+      }
+      //
+
+      // ref={elementRef}
     >
       <div className="app__singleProject-left">
-        <h2>{title}</h2>
-        <p>{text}</p>
+        <h2 className={scroll ? `${newColor}` : `${initialColor}`}>{title}</h2>
+        <p className={scroll ? `${newColor}` : `${initialColor}`}>{text}</p>
       </div>
       <div className="app__singleProject-right">
         {/* <video

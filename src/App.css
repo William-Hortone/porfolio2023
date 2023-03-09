@@ -60,3 +60,26 @@
     padding: 4rem 2rem;
   }
 }
+.text-initial-color {
+  color: var(--color-black);
+  transition: color 0.5s ease;
+}
+.text-new-color {
+  color: var(--color-white);
+  transition: color 0.5s ease;
+}
+.sp-new-bg {
+  background-color: var(--color-black);
+  transition: background 0.3s ease;
+}
+.sp-initial-bg {
+  background-color: var(--color-white);
+  transition: background 0.3s ease;
+}
+
+.color-white {
+  color: var(--color-white);
+}
+.color-black {
+  color: var(--color-black);
+}

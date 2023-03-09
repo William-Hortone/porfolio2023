@@ -5,9 +5,19 @@
   align-items: center;
   border-radius: 10px;
   gap: 2rem;
-  background-color: var(--color-white);
+  /* background-color: var(--color-white); */
   padding: 0.25rem;
+  /* background-color: yellow; */
 }
+.sp-new-bg {
+  background-color: var(--color-black);
+  transition: background 0.3s ease;
+}
+.sp-initial-bg {
+  background-color: var(--color-white);
+  transition: background 0.3s ease;
+}
+
 .app__singleProject-left {
   flex: 3;
   height: 100%;
@@ -21,16 +31,30 @@
   font-size: 2.3rem;
   font-family: var(--font-base);
   font-weight: 100;
-  color: var(--color-black);
+  /* color: var(--color-black); */
   text-transform: capitalize;
 }
+
 .app__singleProject-left p {
   font-size: 18px;
   font-weight: 100;
   font-family: var(--font-base);
-  color: var(--color-black);
+  /* color: var(--color-black); */
   line-height: 1.2;
   /* opacity: 0.7; */
+}
+
+.text-initial-color {
+  color: var(--color-black);
+  transition: color 0.5s ease;
+}
+.text-new-color {
+  color: var(--color-white);
+  transition: color 0.5s ease;
+}
+.text-new-color2 {
+  color: var(--color-white);
+  transition: color 0.5s ease;
 }
 .app__singleProject-right {
   position: relative;
