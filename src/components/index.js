@@ -10,6 +10,8 @@ import Skill from "./Skill/Skill";
 import Header from "./Header/Header";
 import HeadText from "./HeadText/HeadText";
 import SlidingText from "./SlidingText/SlidingText";
+import PageTLetter from "./PageTLetter/PageTLetter";
+import PageTitle from "./PageTitle/PageTitle";
 // import CircleText from "./CircleText/CircleText";
 
 export {
@@ -25,5 +27,7 @@ export {
   Header,
   HeadText,
   SlidingText,
+  PageTLetter,
+  PageTitle,
   // CircleText,
 };

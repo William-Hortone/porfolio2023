@@ -7,6 +7,7 @@
   height: 100%;
   position: relative;
   overflow: hidden;
+  /* background-color: var(--color-grey-one); */
 }
 .app__cardImageOne img {
   width: 100%;

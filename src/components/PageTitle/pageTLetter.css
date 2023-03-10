@@ -1,0 +1,6 @@
+.app__pageTLetter {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  color: var(--color-white);
+}

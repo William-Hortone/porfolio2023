@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { Navbar, SingleProject, Title, Header, Footer } from "../../components";
+import {
+  Navbar,
+  SingleProject,
+  Title,
+  Header,
+  Footer,
+  PageTitle,
+} from "../../components";
 import "./projects.css";
 
 const Projects = () => {
@@ -19,7 +26,8 @@ const Projects = () => {
       <Navbar />
       <Header />
       <div className="app__about-title section__spadding">
-        <Title title="Projets" />
+        {/* <Title title="Projets" /> */}
+        <PageTitle textContent="Projets" />
         <span className="line" />
       </div>
       <div className="app__projects-container section__padding">
