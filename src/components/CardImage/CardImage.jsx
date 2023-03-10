@@ -5,7 +5,9 @@ import "./cardImage.css";
 const CardImage = () => {
   return (
     <div className="app__cardImage">
-      <img src={images.photo} alt="" />
+      <div className="app__cardImage-container">
+        <img src={images.photo} alt="" />
+      </div>
     </div>
   );
 };

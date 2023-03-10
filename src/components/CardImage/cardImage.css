@@ -1,8 +1,51 @@
 .app__cardImage {
   width: 100%;
   height: 100%;
+  position: relative;
+  /* background-color: red; */
+}
+
+.app__cardImage-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 .app__cardImage img {
   width: 100%;
   height: 100%;
+  opacity: 0;
+  animation: img-appearance 0s 1s forwards;
+}
+
+.app__cardImage-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  /* width: 100%;
+  height: 100%; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateX(-100%);
+  background: var(--color-white);
+  animation: slide-in 0.75s ease-out forwards,
+    slide-out 0.75s 1s ease-out forwards;
+}
+@keyframes slide-in {
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes slide-out {
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes img-appearance {
+  100% {
+    /* color: #222; */
+    opacity: 1;
+  }
 }
