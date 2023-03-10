@@ -17,27 +17,72 @@
 }
 .webInt-container-left {
   flex: 1;
+  position: relative;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../../assets/2-left.jpg");
-  /* background-color: rgb(212, 24, 181); */
-  background-position: center top;
-  background-size: cover;
+  overflow: hidden;
+  background-color: rebeccapurple;
 }
-
+.webInt-container-left-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  /* background-color: aqua; */
+}
+.webInt-container-left-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .scroll-animation {
   opacity: 0;
   transform: translateX(-100px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
-
 .scroll-animation.animated {
   opacity: 1;
   transform: translateX(0);
 }
-
+.webInt-container-left h2 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  font-family: var(--font-base);
+  z-index: 3;
+}
+.webInt-container-right {
+  position: relative;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.webInt-container-right-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: -50%;
+}
+.webInt-container-right-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.webInt-container-right p {
+  padding: 0 4rem;
+  font-size: 22px;
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-weight: 500;
+  line-height: 1.9;
+  z-index: 3;
+}
 .scroll-animation-right {
   opacity: 0;
   transform: translateX(100px);
@@ -48,38 +93,6 @@
   opacity: 1;
   transform: translateX(0);
 }
-
-.webInt-container-left h2 {
-  font-size: 4rem;
-  text-transform: capitalize;
-  font-family: var(--font-base);
-}
-/* .webInt-container-left img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-.webInt-container-right {
-  height: 100%;
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(0, 255, 85);
-  background-image: url("../../assets/2-right.jpg");
-  background-position: center top;
-  background-size: cover;
-  /* padding: 0; */
-}
-.webInt-container-right p {
-  padding: 0 4rem;
-  font-size: 22px;
-  font-family: var(--font-base);
-  color: var(--color-black);
-  font-weight: 500;
-  line-height: 1.9;
-}
-
 @media screen and (max-width: 1000px) {
   .app__webInt {
     margin-bottom: 7rem;

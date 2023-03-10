@@ -1,5 +1,5 @@
 import React from "react";
-import { CardImage } from "../../components";
+import { CardImageOne } from "../../components";
 
 import "./aboutMe.css";
 
@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div className="app__aboutMe section__padding">
       <div className="app__aboutMe-left">
         <div className="app__aboutMe-left-img">
-          <CardImage />
+          <CardImageOne />
         </div>
       </div>
       <div className="app__aboutMe-right">

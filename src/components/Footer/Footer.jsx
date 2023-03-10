@@ -1,18 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa";
+// import styled, { keyframes } from "styled-components";
+// import { motion, AnimatePresence } from "framer-motion";
 import "./footer.css";
 
 const Footer = ({ color }) => {
-  // const elementRef = React.useRef();
-
-  // elementRef.innerHTML = elementRef.innerText
-  //   .split("")
-  //   .map(
-  //     (char, i) =>
-  //       `<span style={{transform: rotate(${i * 5}deg) }}> ${char}</span>`
-  //   )
-  //   .join("");
-
   return (
     <div className={`${color}` + " app__footer section__padding"} id="contact">
       <div className="app__footer-box_titles">
@@ -27,12 +19,6 @@ const Footer = ({ color }) => {
         <a href="#" mailto="willhortone@gmail.com" className="footer-email">
           WILLHORTONE@ <br /> GMAIL.COM
         </a>
-        {/* <div className="circle">
-          <div className="logo"></div>
-          <div className="text">
-            <p>William Hortone sdsds;dsdsjldsdjkjjsd</p>
-          </div>
-        </div> */}
       </div>
       <div className="app__footer-box-copyright">
         <p>William Hortone @2023</p>

@@ -53,6 +53,9 @@ const WebInt = () => {
           ref={elementRef}
         >
           <h2>Intégrateur web</h2>
+          <div className="webInt-container-left-img">
+            <img src={images.hortone} alt="" />
+          </div>
         </div>
         <div
           className="webInt-container-right scroll-animation-right"
@@ -63,6 +66,9 @@ const WebInt = () => {
             applications web identiques aux maquettes en travaillant en étroite
             collaboration avec un designer ou en m’inspirant d'autres sites.
           </p>
+          <div className="webInt-container-right-img">
+            <img src={images.hortone} alt="" />
+          </div>
           {/* <img src={images.wh_right} alt="" /> */}
         </div>
       </div>

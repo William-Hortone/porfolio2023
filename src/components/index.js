@@ -1,4 +1,5 @@
 import CardImage from "./CardImage/CardImage";
+import CardImageOne from "./CardImageOne/CardImageOne";
 import Footer from "./Footer/Footer";
 import Navbar from "./Navbar/Navbar";
 import SingleProject from "./SingleProject/SingleProject";
@@ -9,10 +10,11 @@ import Skill from "./Skill/Skill";
 import Header from "./Header/Header";
 import HeadText from "./HeadText/HeadText";
 import SlidingText from "./SlidingText/SlidingText";
-import CircleText from "./CircleText/CircleText";
+// import CircleText from "./CircleText/CircleText";
 
 export {
   CardImage,
+  CardImageOne,
   Footer,
   Title,
   SingleProject,
@@ -23,5 +25,5 @@ export {
   Header,
   HeadText,
   SlidingText,
-  CircleText,
+  // CircleText,
 };

@@ -1,25 +1,21 @@
-.app__cardImage {
+.app__cardImageOne {
   width: 100%;
   height: 100%;
 }
-.app__cardImage-container {
+.app__cardImageOne-container {
   width: 100%;
   height: 100%;
   position: relative;
   overflow: hidden;
 }
-.app__cardImage img {
+.app__cardImageOne img {
   width: 100%;
   height: 100%;
-}
-.img-anim {
   opacity: 0;
-}
-.img-anim.animate {
   animation: img-appearance 0s 1s forwards;
 }
 
-.span-element {
+.app__cardImageOne-container span {
   /* content: ""; */
   /* display: block; */
   /* display: flex; */
@@ -30,15 +26,10 @@
   left: 0;
   right: 0;
   bottom: 0;
+  transform: translateX(-100%);
   z-index: 2;
   /* background: var(--color-white); */
   background-color: bisque;
-}
-.span-element-anim {
-  transform: translateX(-100%);
-}
-.span-element-anim.animate {
-  transform: translateX(-100%);
   animation: slide-in 0.75s ease-out forwards,
     slide-out 0.75s 1s ease-out forwards;
 }
