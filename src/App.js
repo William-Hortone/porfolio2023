@@ -35,23 +35,7 @@ const App = () => {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       )}
-
-      {/* <Preloader /> */}
-      {/* {showPreloader && <Preloader />}
-      {!showPreloader && <Home />} */}
     </>
-    // <div className="container">
-    //   {letters.map((letter, index) => (
-    //     <Letter key={index} letter={letter} />
-    //   ))}
-    // </div>
-
-    // <div className="container">
-    //   <Image />
-    //   {letters.map((letter, index) => (
-    //     <Letter key={index} letter={letter} delay={index * 0.1} />
-    //   ))}
-    // </div>
   );
 };
 
