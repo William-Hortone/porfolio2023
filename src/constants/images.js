@@ -2,6 +2,7 @@ import logo from "../assets/logo.png";
 import william from "../assets/2.jpg";
 import williamOne from "../assets/william1.png";
 import williamTwo from "../assets/william2.png";
+import williamThree from "../assets/william3.jpg";
 import hortone from "../assets/willi.png";
 import wh from "../assets/wh.jpg";
 import wh_left from "../assets/2-left.jpg";
@@ -68,6 +69,7 @@ export default {
   photo,
   williamOne,
   williamTwo,
+  williamThree,
   youtube,
   youtube2,
   youtube3,

@@ -128,23 +128,6 @@ const SingleProject = ({
           </div>
         </div>
 
-        {/* <video
-          ref={vidRef}
-          type="video/pm4"
-          loop
-          controls={false}
-          muted
-          src={images.video}
-        /> */}
-        {/* <div className="video-container-btn">
-          <div className="video-btn" onClick={handleVideo}>
-            {playVideo ? (
-              <BsPauseFill color="#fff" fontSize={30} />
-            ) : (
-              <BsFillPlayFill color="#fff" fontSize={30} />
-            )}
-          </div>
-        </div> */}
         {/* </div> */}
       </a>
     </div>
