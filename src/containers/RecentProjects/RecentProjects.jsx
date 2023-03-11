@@ -31,7 +31,8 @@ const RecentProjects = () => {
         />
         <SingleProject
           title="Giricht Resto"
-          text="il s'agit du site web d'un restaurant. Ce projet fait partir de mes nombreux projets realises pour le 'fun'. it était question d'intégrer une maquette figma."
+          text="il s'agit du site web d'un restaurant. Ce projet fait partir de mes nombreux projets 
+          realises pour le 'fun'. it était question d'intégrer une maquette figma."
           sProjectNInitialBg={"sp-new-bg"}
           sProjectNewBg={"sp-initial-bg"}
           initialColor={"text-initial-color"}

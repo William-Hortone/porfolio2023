@@ -1,7 +1,11 @@
 .app__skill {
   width: 48%;
   position: relative;
+
   /* background-color: aqua; */
+}
+.app__skill-container_title {
+  width: fit-content;
 }
 .app__skill h4 {
   font-size: 1.6rem;
@@ -10,23 +14,25 @@
   letter-spacing: 1.2px;
   line-height: 1.23;
   text-transform: uppercase;
+  /* background-color: red; */
 }
 .app__skill-box-img {
   /* width: 100px;
   height: 70px; */
   position: absolute;
-  top: 50%;
-  right: -50px;
-  transform: translateY(-50%);
+  top: -50%;
+  left: 50px;
+  /* transform: translateY(-50%); */
   /* background-color: aqua; */
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: all 0.5s ease;
   /* position: absolute; */
   /* top: 0;
   left: 0; */
-  width: 50px;
-  height: 50px;
+  width: 0px;
+  height: 70px;
   z-index: 1;
+  background-color: aqua;
   /* animation: glitch 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
   animation-play-state: paused; */
 }
@@ -37,6 +43,7 @@
 }
 .app__skill:hover .app__skill-box-img {
   opacity: 1;
+  width: 100px;
 }
 
 /* .glitch-imadge {
@@ -71,6 +78,10 @@
 
     /* color: red; */
   }
+  .app__skill-box-img {
+    top: -80px;
+    left: 0px;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -86,5 +97,14 @@
 @media screen and (max-width: 550px) {
   .app__skill h4 {
     font-size: 1rem;
+  }
+  .app__skill-box-img {
+    top: -45px;
+    left: 0px;
+    height: 40px;
+  }
+  .app__skill:hover .app__skill-box-img {
+    opacity: 1;
+    width: 60px;
   }
 }

@@ -17,14 +17,6 @@ const Letter = ({ letter, delay }) => {
           stiffness: 100,
           damping: 20,
         }}
-        // initial={{ y: 100 }}
-        // animate={{ y: 0 }}
-        // transition={{
-        //   duration: 1,
-        //   type: "spring",
-        //   stiffness: 50,
-        //   damping: 20,
-        // }}
       >
         {letter}
       </motion.span>
