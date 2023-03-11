@@ -7,7 +7,7 @@ const CardImage = () => {
     <div className="app__cardImageOne">
       <div className="app__cardImageOne-container">
         <span />
-        <img src={images.williamTwo} alt="" className="img-anim" />
+        <img src={images.wh} alt="" className="img-anim" />
       </div>
     </div>
   );

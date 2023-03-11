@@ -3,6 +3,7 @@ import william from "../assets/2.jpg";
 import williamOne from "../assets/william1.png";
 import williamTwo from "../assets/william2.png";
 import hortone from "../assets/willi.png";
+import wh from "../assets/wh.jpg";
 import wh_left from "../assets/2-left.jpg";
 import wh_right from "../assets/2-right.jpg";
 import video from "../assets/video.mp4";
@@ -27,13 +28,42 @@ import giricht4 from "../assets/giricht4.png";
 import giricht5 from "../assets/giricht5.png";
 import giricht6 from "../assets/giricht6.png";
 import certificate from "../assets/certificate.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import js from "../assets/js2.png";
+import git from "../assets/git.png";
+import cpp from "../assets/cpp.png";
+import material from "../assets/matarial.png";
+import motion from "../assets/motion.png";
+import tailwind from "../assets/tailwind.png";
+import vscode from "../assets/vscode.png";
+import wordpress from "../assets/wordpress.png";
+import react from "../assets/react.png";
+import netlify from "../assets/netlify.png";
+import figma from "../assets/figma.png";
+import bootstrap from "../assets/bootstrap.png";
 
 export default {
+  html,
+  netlify,
+  react,
+  motion,
+  tailwind,
+  cpp,
+  css,
+  js,
+  vscode,
+  material,
+  git,
+  wordpress,
+  bootstrap,
+  figma,
   logo,
   william,
   hortone,
   wh_left,
   wh_right,
+  wh,
   video,
   photo,
   williamOne,

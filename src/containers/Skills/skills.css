@@ -6,7 +6,7 @@
   gap: 7rem;
   margin-top: 4rem;
   /* background-color: rebeccapurple; */
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .app__skills-container {
   width: 100%;
@@ -28,16 +28,12 @@
 }
 .app__skill-container-right {
   flex: 1;
-  /* height: auto; */
   display: flex;
   flex-wrap: wrap;
-  /* gap: 1rem; */
-  /* background-color: aqua; */
 }
 .app__skill-right_box-one {
   flex: 1;
   height: 100%;
-  /* background-color: bisque; */
 }
 .app__skill-right_box-two {
   flex: 1;
