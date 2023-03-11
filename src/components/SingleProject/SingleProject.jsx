@@ -5,6 +5,11 @@ import images from "../../constants/images";
 import "./singleProject.css";
 
 const SingleProject = ({
+  img,
+  img2,
+  img3,
+  img4,
+  img5,
   title,
   text,
   initialColor,
@@ -103,6 +108,24 @@ const SingleProject = ({
         <p className={scroll ? `${newColor}` : `${initialColor}`}>{text}</p>
       </div>
       <div className="app__singleProject-right">
+        <div className="app__singleProject-right_container">
+          <div className="app__singleProject-right-box">
+            <img src={img} alt="photo of project" />
+          </div>
+          <div className="app__singleProject-right-box">
+            <img src={img2} alt="photo of project" />
+          </div>
+          <div className="app__singleProject-right-box">
+            <img src={img3} alt="photo of project" />
+          </div>
+          <div className="app__singleProject-right-box">
+            <img src={img4} alt="photo of project" />
+          </div>
+          <div className="app__singleProject-right-box">
+            <img src={img5} alt="photo of project" />
+          </div>
+        </div>
+
         {/* <video
           ref={vidRef}
           type="video/pm4"

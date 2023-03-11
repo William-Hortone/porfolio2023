@@ -18,7 +18,7 @@ const Certificate = () => {
         </div>
         <div className="app__certificate-right">
           <div className="app__certificate-right-img">
-            <CardImage />
+            <CardImage img={images.certificate} />
           </div>
         </div>
       </div>

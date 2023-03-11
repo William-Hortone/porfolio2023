@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import images from "../../constants/images";
 import "./cardImage.css";
 
-const CardImage = () => {
+const CardImage = ({ img }) => {
   const cardImageRef = useRef(null);
   const imageRef = useRef(null);
 
@@ -34,7 +34,12 @@ const CardImage = () => {
           className="span-element span-element-anim"
           ref={cardImageRef}
         ></span>
-        <img src={images.photo} alt="" ref={imageRef} className="img-anim" />
+        <img
+          src={img}
+          alt="photo of project"
+          ref={imageRef}
+          className="img-anim"
+        />
       </div>
     </div>
   );
