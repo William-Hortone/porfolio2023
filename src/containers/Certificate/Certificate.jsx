@@ -11,9 +11,11 @@ const Certificate = () => {
       <div className="app__certificate-container">
         <div className="app__certificate-left">
           <p>
-            After receiving some great feedback and because we are in love with
-            typography animations, we decided to create a second set. In this
-            volume, we explore some more ideas.
+            En janvier 2023, j'ai été sélectionné pour participer, un hackathon
+            organisé par Neza Tech ( une compagnie basée en Chine ) et dont le
+            défi était de réaliser une application mobile ou web qui aide à
+            apprendre à jouer d'un instrument. Mon groupe a obtenu la deuxième
+            place.
           </p>
         </div>
         <div className="app__certificate-right">

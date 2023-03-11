@@ -41,6 +41,6 @@
 }
 @media screen and (max-width: 480px) {
   .app__header-logo {
-    height: 80%;
+    height: 70%;
   }
 }

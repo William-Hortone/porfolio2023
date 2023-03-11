@@ -20,6 +20,7 @@ const RecentProjects = () => {
           À savoir, réaliser l'application YouTube en me servant de Rapid API. Ce qui 
           donne la possibilité d'accéder a toutes les chaînes YouTube et a leurs 
           contenus. Ce project est également responsive"
+          link="https://willtube.netlify.app/"
           sProjectNInitialBg={"sp-new-bg"}
           sProjectNewBg={"sp-initial-bg"}
           initialColor={"text-initial-color"}
@@ -35,6 +36,7 @@ const RecentProjects = () => {
           text=" ONA Bâtiment est une entreprise générale de bâtiment répartie en trois pôles :
            Conception architecturale, bureau d’études et travaux.J'ai essentiellement été au cœur 
            du projet. Du choix de la maquette à la mis en ligne du site."
+          link="https://onabatiment.com/"
           sProjectNInitialBg={"sp-new-bg"}
           sProjectNewBg={"sp-initial-bg"}
           initialColor={"text-initial-color"}
@@ -46,9 +48,10 @@ const RecentProjects = () => {
           img3={images.giricht3}
           img4={images.giricht4}
           img5={images.giricht5}
-          title="Giricht Resto"
+          title="Gericht Resto"
           text="Il s'agit du site web d'un restaurant. Ce projet fait partir de mes nombreux projets 
           realises pour le 'fun'. it était question d'intégrer une maquette figma."
+          link="https://gericht-a.netlify.app/"
           sProjectNInitialBg={"sp-new-bg"}
           sProjectNewBg={"sp-initial-bg"}
           initialColor={"text-initial-color"}

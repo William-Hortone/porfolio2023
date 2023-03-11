@@ -16,7 +16,7 @@ const Footer = ({ color }) => {
         <span className="footer-arrow">
           <FaArrowRight />
         </span>
-        <a href="#" mailto="willhortone@gmail.com" className="footer-email">
+        <a href="mailto:willhortone@gmail.com" className="footer-email">
           WILLHORTONE@ <br /> GMAIL.COM
         </a>
       </div>

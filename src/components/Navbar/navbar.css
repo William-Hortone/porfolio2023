@@ -21,7 +21,6 @@
   border-radius: 10px;
   padding: 0.3rem;
   background-color: var(--color-crimson);
-  /* background-color: red; */
   z-index: 5000;
   transition: width 0.5s ease;
 }
@@ -158,5 +157,8 @@
     font-size: 1.5rem;
     font-family: var(--font-base);
     color: var(--color-black);
+  }
+  .link {
+    font-size: 1.8rem;
   }
 }
