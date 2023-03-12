@@ -85,11 +85,11 @@ const Projects = () => {
         />
 
         <SingleProject
-          img={images.youtube}
-          img2={images.giricht2}
-          img3={images.giricht3}
-          img4={images.giricht4}
-          img5={images.giricht5}
+          img={images.portfolio1}
+          img2={images.portfolio2}
+          img3={images.portfolio5}
+          img4={images.portfolio4}
+          img5={images.portfolio3}
           title="Ancien Portfolio"
           text=" After receiving some great feedback and because we are in love with
           typography animations, we decided to create a second set. In this
@@ -103,16 +103,14 @@ const Projects = () => {
         />
 
         <SingleProject
-          img={images.youtube}
-          img2={images.giricht2}
-          img3={images.giricht3}
-          img4={images.giricht4}
-          img5={images.giricht5}
+          img={images.yanga1}
+          img2={images.yanga2}
+          img3={images.yanga3}
+          img4={images.yanga4}
+          img5={images.yanga5}
           title="Yanga Cargo"
-          text=" After receiving some great feedback and because we are in love with
-          typography animations, we decided to create a second set. In this
-          volume, we explore some more ideas, usingperspective and sequential
-          animations."
+          text="Yanga Cargo est une PME gabonaise basée en Chine à Guangzhou évoluant 
+          dans le secteur du fret aérienne: import export et portuaire: import à Libreville."
           initialColor={"text-initial-color"}
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}

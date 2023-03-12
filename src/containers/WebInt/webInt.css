@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
 }
 .webInt-container-left-img {
   width: 100%;
@@ -51,6 +51,8 @@
   font-size: 4rem;
   text-transform: capitalize;
   font-family: var(--font-base);
+  color: #413f3f;
+
   z-index: 3;
 }
 .webInt-container-right {
@@ -61,6 +63,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  /* background-color: burlywood; */
 }
 .webInt-container-right-img {
   width: 100%;
@@ -68,6 +71,7 @@
   position: absolute;
   top: 0%;
   left: -50%;
+  /* background-color: rgb(15, 73, 49); */
 }
 .webInt-container-right-img img {
   width: 100%;
@@ -79,6 +83,8 @@
   font-size: 22px;
   font-family: var(--font-base);
   color: var(--color-black);
+  color: var(--color-grey);
+  color: #413f3f;
   font-weight: 500;
   line-height: 1.9;
   z-index: 3;
@@ -93,8 +99,14 @@
   opacity: 1;
   transform: translateX(0);
 }
+@media screen and (max-width: 1200px) {
+  .app__webInt {
+    height: 85vh;
+  }
+}
 @media screen and (max-width: 1000px) {
   .app__webInt {
+    height: 70vh;
     margin-bottom: 7rem;
   }
   .webInt-container-left h2 {
@@ -103,7 +115,7 @@
 }
 @media screen and (max-width: 850px) {
   .app__webInt {
-    height: 90vh;
+    height: 50vh;
   }
   .webInt-container-left h2 {
     font-size: 2rem;
@@ -115,16 +127,20 @@
 }
 @media screen and (max-width: 550px) {
   .app__webInt {
-    height: 50vh;
+    height: 30vh;
     margin-bottom: 5rem;
   }
+  .webInt-container-left-img,
+  .webInt-container-right-img {
+    width: 115%;
+  }
   .webInt-container-left h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
   }
   .webInt-container-right p {
     padding: 0 0.5rem;
-    font-size: 16.5px;
+    font-size: 15px;
     line-height: 1;
   }
 }

@@ -54,7 +54,7 @@ const WebInt = () => {
         >
           <h2>Intégrateur web</h2>
           <div className="webInt-container-left-img">
-            <img src={images.hortone} alt="" />
+            <img src={images.wh2} alt="" />
           </div>
         </div>
         <div
@@ -67,7 +67,7 @@ const WebInt = () => {
             collaboration avec un designer ou en m’inspirant d'autres sites.
           </p>
           <div className="webInt-container-right-img">
-            <img src={images.hortone} alt="" />
+            <img src={images.wh2} alt="" />
           </div>
           {/* <img src={images.wh_right} alt="" /> */}
         </div>
