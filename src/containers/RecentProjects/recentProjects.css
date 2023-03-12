@@ -24,8 +24,28 @@
   }
 } */
 .link_see-more {
+  position: relative;
+  width: fit-content;
   color: var(--color-white);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-top: 2rem;
   cursor: pointer;
+}
+.link_see-more::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  background-color: var(--color-crimson);
+  transition: width 0.5s ease;
+}
+.link_see-more:hover.link_see-more::after {
+  width: 100%;
+}
+@media screen and (max-width: 550px) {
+  .link_see-more {
+    font-size: 1rem;
+  }
 }

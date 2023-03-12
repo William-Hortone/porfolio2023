@@ -4,7 +4,6 @@ import { FaArrowUp } from "react-icons/fa";
 import {
   Navbar,
   Header,
-  Title,
   SlidingText,
   Footer,
   PageTitle,
@@ -19,7 +18,6 @@ const About = () => {
       <Navbar />
       <Header />
       <div className="app__about-title section__spadding">
-        {/* <Title title="A propos" /> */}
         <PageTitle textContent="A-propos" />
         <span className="line" />
       </div>

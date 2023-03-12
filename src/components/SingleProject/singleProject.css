@@ -181,9 +181,12 @@
   }
 }
 @media screen and (max-width: 550px) {
+  .app__singleProject-right_container:hover {
+    animation: image-translate 5s linear;
+  }
   @keyframes image-translate {
     to {
-      transform: translateX(-1650px);
+      transform: translateX(-1275px);
     }
   }
 }

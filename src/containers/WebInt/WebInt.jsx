@@ -1,5 +1,3 @@
-// import React from "react";
-// import React, { useEffect, useState } from "react";
 import React, { useEffect, useRef } from "react";
 import images from "../../constants/images";
 import "./webInt.css";
@@ -46,7 +44,7 @@ const WebInt = () => {
   }, []);
 
   return (
-    <div className="app__webInt section__paddingd">
+    <div className="app__webInt ">
       <div className="app__webInt-container">
         <div
           className="webInt-container-left scroll-animation"
@@ -54,7 +52,7 @@ const WebInt = () => {
         >
           <h2>Intégrateur web</h2>
           <div className="webInt-container-left-img">
-            <img src={images.wh2} alt="" />
+            <img src={images.wh2} alt="photo of william" />
           </div>
         </div>
         <div
@@ -67,9 +65,8 @@ const WebInt = () => {
             collaboration avec un designer ou en m’inspirant d'autres sites.
           </p>
           <div className="webInt-container-right-img">
-            <img src={images.wh2} alt="" />
+            <img src={images.wh2} alt="photo of william" />
           </div>
-          {/* <img src={images.wh_right} alt="" /> */}
         </div>
       </div>
     </div>

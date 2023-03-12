@@ -7,7 +7,7 @@ import "./recentProjects.css";
 const RecentProjects = () => {
   return (
     <div className="app__recentProjects section__padding">
-      <Title title="Projets Recent" />
+      <Title title="Projets Récents" />
       <div className="app__recentProjects-container">
         <SingleProject
           img={images.youtube}

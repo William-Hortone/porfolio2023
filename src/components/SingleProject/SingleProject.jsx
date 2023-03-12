@@ -20,32 +20,6 @@ const SingleProject = ({
 }) => {
   const elementRef = useRef(null);
 
-  // useEffect(() => {
-  //   const project = projectRef.current;
-
-  //   const handleScroll = () => {
-  //     const scrollTop =
-  //       window.pageYOffset || document.documentElement.ScrollTop;
-  //     const projectOffsetTop = project.offsetTop;
-  //     const projectHeight = project.offsetHeight;
-
-  //     if (
-  //       scrollTop >
-  //       projectOffsetTop - window.innerHeight + projectHeight / 2
-  //     ) {
-  //       project.classList.add("animated");
-  //     } else {
-  //       project.classList.remove("animated");
-  //     }
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-
-  // useEffect(() => {
-
   const [scroll, setScroll] = useState(false);
 
   const handleChangeBg = () => {

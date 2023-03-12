@@ -28,7 +28,7 @@ const Projects = () => {
     >
       <Navbar />
       <Header />
-      <div className="app__about-title section__spadding">
+      <div className="app__about-title ">
         <PageTitle textContent="Projets" />
         <span className="line" />
       </div>
@@ -42,7 +42,7 @@ const Projects = () => {
           initialColor={"text-initial-color"}
           newColor={"text-new-color"}
           link="https://willtube.netlify.app/"
-          title="Clone Youtube"
+          title="Clone YouTube"
           text=" Il s’agit d’un challenge personnel que je me suis lancé. 
           À savoir, réaliser l'application YouTube en me servant de Rapid API ce qui 
           donne la possibilité d'accéder a toutes les chaînes YouTube et a leurs 
@@ -91,10 +91,8 @@ const Projects = () => {
           img4={images.portfolio4}
           img5={images.portfolio3}
           title="Ancien Portfolio"
-          text=" After receiving some great feedback and because we are in love with
-          typography animations, we decided to create a second set. In this
-          volume, we explore some more ideas, usingperspective and sequential
-          animations."
+          text="En 2022 afin de partager mes projets, mais aussi afin d'améliorer mes connaissances 
+          en développement front-end, j'ai réalisé mon premier portfolio."
           link="https://williamhortone.com/"
           initialColor={"text-initial-color"}
           newColor={"text-new-color"}
@@ -124,10 +122,10 @@ const Projects = () => {
           img4={images.linkedin4}
           img5={images.linkedin5}
           title="Clone Linkedin"
-          text=" After receiving some great feedback and because we are in love with
-          typography animations, we decided to create a second set. In this
-          volume, we explore some more ideas, usingperspective and sequential
-          animations."
+          text=" Ce projet est un challenge personnel. Passant assez de temps sur Linkedin, 
+          j'ai voulu le cloner en réalisant plusieurs pages, dont la page d'accueil, 
+          messagerie, notifications, profil, emplois, réseau et en y ajoutant une recherche 
+          dynamique et un scroll infini. Ce projet est totalement responsive."
           initialColor={"text-initial-color"}
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}
