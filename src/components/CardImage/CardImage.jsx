@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import images from "../../constants/images";
 import "./cardImage.css";
 
 const CardImage = ({ img }) => {
@@ -11,7 +10,7 @@ const CardImage = ({ img }) => {
       const cardImage = cardImageRef.current;
       const img = imageRef.current;
       const distanceFromTop = cardImage.getBoundingClientRect().top;
-      const imDistanceFromTop = img.getBoundingClientRect().top;
+      const imgDistanceFromTop = img.getBoundingClientRect().top;
 
       if (distanceFromTop <= window.innerHeight) {
         cardImage.classList.add("animate");

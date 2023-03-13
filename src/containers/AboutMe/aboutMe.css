@@ -3,28 +3,23 @@
   height: 70vh;
   display: flex;
   margin-bottom: 2.5rem;
-  /* background-color: rebeccapurple; */
 }
 .app__aboutMe-left {
   flex: 1;
   height: 100%;
   display: flex;
   align-items: center;
-  /* background-color: aquamarine; */
 }
 .app__aboutMe-left-img {
-  /* width: 90%; */
   height: 90%;
 }
 .app__aboutMe-right {
   flex: 1;
   height: 100%;
-  /* background-color: rgb(29, 36, 33); */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .app__aboutMe-right p {
   font-size: 20px;
   font-family: var(--font-base);
@@ -32,7 +27,6 @@
   letter-spacing: 1.5px;
   color: var(--color-white);
 }
-
 @media screen and (max-width: 1000px) {
   .app__aboutMe {
     height: 60vh;
@@ -41,7 +35,6 @@
     font-size: 17px;
   }
 }
-
 @media screen and (max-width: 850px) {
   .app__aboutMe {
     height: 60vh;
@@ -50,7 +43,6 @@
     font-size: 17px;
   }
 }
-
 @media screen and (max-width: 750px) {
   .app__aboutMe {
     height: auto;
@@ -62,7 +54,6 @@
     height: 100%;
   }
   .app__aboutMe-right p {
-    /* font-size: 15px; */
     padding: 1rem 0;
   }
 }

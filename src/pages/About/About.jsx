@@ -17,7 +17,7 @@ const About = () => {
     <div className="app__about ">
       <Navbar />
       <Header />
-      <div className="app__about-title section__spadding">
+      <div className="app__about-title">
         <PageTitle textContent="A-propos" />
         <span className="line" />
       </div>

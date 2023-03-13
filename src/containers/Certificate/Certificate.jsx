@@ -13,7 +13,7 @@ const Certificate = () => {
           <p>
             En janvier 2023, j'ai été sélectionné pour participer, un hackathon
             organisé par Neza Tech ( une compagnie basée en Chine ) et dont le
-            défi était de réaliser une application mobile ou web qui apprendre à
+            défi était de réaliser une application mobile ou web qui apprend à
             jouer d'un instrument. Mon groupe a obtenu la deuxième place.
           </p>
         </div>

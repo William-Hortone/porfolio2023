@@ -5,9 +5,7 @@
   align-items: center;
   border-radius: 10px;
   gap: 2rem;
-  /* background-color: var(--color-white); */
   padding: 0.25rem;
-  /* background-color: yellow; */
 }
 .sp-new-bg {
   background-color: var(--color-black);
@@ -17,7 +15,6 @@
   background-color: var(--color-white);
   transition: background 0.3s ease;
 }
-
 .app__singleProject-left {
   flex: 3;
   height: 100%;
@@ -25,25 +22,19 @@
   flex-direction: column;
   padding: 0.75rem;
   gap: 1rem;
-  /* background-color: rgb(101, 226, 43); */
 }
 .app__singleProject-left h2 {
   font-size: 2.3rem;
   font-family: var(--font-base);
   font-weight: 100;
-  /* color: var(--color-black); */
   text-transform: capitalize;
 }
-
 .app__singleProject-left p {
   font-size: 18px;
   font-weight: 100;
   font-family: var(--font-base);
-  /* color: var(--color-black); */
   line-height: 1.2;
-  /* opacity: 0.7; */
 }
-
 .text-initial-color {
   color: var(--color-black);
   transition: color 0.5s ease;
@@ -58,17 +49,12 @@
 }
 .app__singleProject-right {
   position: relative;
-  /* flex: 2; */
   min-width: 500px;
   display: flex;
   align-items: center;
   height: 100%;
   border-radius: 10px;
   background-color: var(--color-grey);
-  /* background-color: red; */
-  /* background-image: url("../../assets/photo.png"); */
-  /* background-position: center center;
-  background-size: cover; */
   padding: 0.3rem;
   overflow: hidden;
 }
@@ -80,10 +66,8 @@
   top: 0;
   left: 0;
   transition: all 0.3s ease;
-  /* margin: auto 20px; */
 }
 .app__singleProject-right-box {
-  /* width: 400px; */
   min-width: 500px;
   height: 100%;
 }
@@ -93,9 +77,7 @@
   object-fit: cover;
   transition: 0.3s ease;
 }
-
 .app__singleProject-right_container:hover {
-  /* transform: translateX(-500px); */
   animation: image-translate 5s linear forwards;
   transition: 0.3s ease;
 }
@@ -104,14 +86,6 @@
     transform: translateX(-2000px);
   }
 }
-/* .video-container-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-} */
-
 @media screen and (min-width: 2000px) {
   .app__singleProject-left h2 {
     font-size: 2rem;
@@ -133,32 +107,11 @@
   .app__singleProject-right-box {
     min-width: 350px;
   }
-
   @keyframes image-translate {
     to {
       transform: translateX(-1400px);
     }
   }
-}
-@media screen and (max-width: 1000px) {
-  /* .app__singleProject {
-    width: 100%;
-    height: auto;
-  }
-
-  
-  .app__singleProject-right {
-    flex: 2;
-
-    height: 100%;
-  } */
-  /* .app__singleProject-right {
-    min-width: 300px;
-  }
-  .app__singleProject-right-box {
-
-    min-width: 300px;
-  } */
 }
 @media screen and (max-width: 750px) {
   .app__singleProject {

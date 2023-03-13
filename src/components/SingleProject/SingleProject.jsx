@@ -1,6 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
-
-import images from "../../constants/images";
+import React, { useState } from "react";
 
 import "./singleProject.css";
 
@@ -18,8 +16,6 @@ const SingleProject = ({
   sProjectNewBg,
   sProjectNInitialBg,
 }) => {
-  const elementRef = useRef(null);
-
   const [scroll, setScroll] = useState(false);
 
   const handleChangeBg = () => {
@@ -28,42 +24,6 @@ const SingleProject = ({
     } else setScroll(false);
   };
   window.addEventListener("scroll", handleChangeBg);
-
-  // const element = elementRef.current;
-  // const rightElement = rightElementRef.current;
-
-  // const handleScroll = () => {
-  //   const scrollTop =
-  //     window.pageYOffset || document.documentElement.scrollTop;
-  //   const elementOffsetTop = element.offsetTop;
-  //   const elementHeight = element.offsetHeight;
-
-  // const rightElementOffsetTop = rightElement.offsetTop;
-  // const rightElementHeight = rightElement.offsetHeight;
-
-  // if (
-  //   scrollTop >
-  //   elementOffsetTop - window.innerHeight + elementHeight / 2
-  // ) {
-  //   element.classList.add("animated");
-  // } else {
-  //   element.classList.remove("animated");
-  // }
-  // if (
-  //   scrollTop >
-  //   rightElementOffsetTop - window.innerHeight + rightElementHeight / 2
-  // ) {
-  //   rightElement.classList.add("animated");
-  // } else {
-  //   rightElement.classList.remove("animated");
-  // }
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
 
   return (
     <div
@@ -74,16 +34,12 @@ const SingleProject = ({
           : `${sProjectNInitialBg}` +
             " app__singleProject scroll-animation-right-project"
       }
-      //
-
-      // ref={elementRef}
     >
       <div className="app__singleProject-left">
         <h2 className={scroll ? `${newColor}` : `${initialColor}`}>{title}</h2>
         <p className={scroll ? `${newColor}` : `${initialColor}`}>{text}</p>
       </div>
       <a href={link} className="app__singleProject-right">
-        {/* <div className="app__singleProject-right"> */}
         <div className="app__singleProject-right_container">
           <div className="app__singleProject-right-box">
             <img src={img} alt="photo of project" />
@@ -101,8 +57,6 @@ const SingleProject = ({
             <img src={img5} alt="photo of project" />
           </div>
         </div>
-
-        {/* </div> */}
       </a>
     </div>
   );

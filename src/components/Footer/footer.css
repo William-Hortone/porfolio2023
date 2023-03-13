@@ -1,13 +1,10 @@
 .app__footer {
   width: 100%;
   height: 70vh;
-  /* background-color: aliceblue; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* color: var(--color-white); */
 }
-/* .footer-color */
 .app__footer-box_titles {
   display: flex;
   justify-content: space-between;
@@ -20,7 +17,6 @@
 .app__footer-box-email {
   position: relative;
   display: flex;
-  /* gap: 4rem; */
   width: 100%;
 }
 .footer-arrow {
@@ -40,7 +36,6 @@
 .app__footer-box-copyright {
   display: flex;
   justify-content: space-between;
-  /* padding-bottom: 1.5rem; */
 }
 .app__footer-box-copyright p {
   font-size: 15px;
@@ -49,45 +44,6 @@
   letter-spacing: 1px;
   opacity: 0.67;
 }
-
-/* .circle {
-  position: relative;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  background-color: aqua;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-/* .logo {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background-color: red;
-  border-radius: 50%;
-  filter: brightness(1.5) contrast(1.5);
-}
-.text {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  animation: rotateText 10s linear infinite;
-}
-.text p {
-  position: absolute;
-  left: 50%;
-  font-size: 1.2rem;
-  transform-origin: 0 100px;
-} */
-/* @keyframes rotateText {
-  0% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-} */
 
 @media screen and (max-width: 1000px) {
   .app__footer-box_titles h3 {

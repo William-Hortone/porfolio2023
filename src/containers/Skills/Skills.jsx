@@ -1,6 +1,7 @@
 import React from "react";
 import { Title, CardImage, Skill } from "../../components";
 import images from "../../constants/images";
+
 import "./skills.css";
 
 const Skills = () => {

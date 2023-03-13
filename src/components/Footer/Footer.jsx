@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-// import styled, { keyframes } from "styled-components";
-// import { motion, AnimatePresence } from "framer-motion";
+
 import "./footer.css";
 
 const Footer = ({ color }) => {

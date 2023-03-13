@@ -1,6 +1,4 @@
 import React from "react";
-import images from "../../constants/images";
-
 import "./skill.css";
 
 const Skill = ({ skillTitle, img }) => {
@@ -10,7 +8,7 @@ const Skill = ({ skillTitle, img }) => {
         <h4>{skillTitle}</h4>
       </div>
       <div className="app__skill-box-img glitch-image">
-        <img src={img} alt="kitten" />
+        <img src={img} alt="logo of software" />
       </div>
     </div>
   );
