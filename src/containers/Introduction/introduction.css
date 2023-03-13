@@ -4,19 +4,14 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 5rem;
-  /* background-color: red; */
 }
 .app__introduction-box {
-  /* flex: 1; */
-  /* background-color: red; */
   display: flex;
   gap: 2rem;
   padding-top: 7rem;
 }
 .space {
   flex: 1;
-  /* height: 100px; */
-  /* background-color: aquamarine; */
 }
 .app__introduction-box p {
   flex: 3;
@@ -25,77 +20,13 @@
   line-height: 2.5;
   color: var(--color-white);
   font-family: var(--font-base);
-  /* background-color: rgb(196, 228, 159); */
 }
-/* .app__introduction-right {
-  flex: 1;
-  position: relative;
-  background-color: rgb(37, 117, 34);
-} */
-
-/* .circle-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100px;
-  height: 100px;
-  margin-top: -50px;
-  margin-left: -50px;
-  border-radius: 50%;
-  animation-name: circle;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-} */
-
-/* @keyframes circle {
-  from {
-    transform: rotate(0deg) translateX(150px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(150px) rotate(-360deg);
-  }
-} */
-
-/* .circular-motion {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 1px solid black;
-  position: relative;
-} */
-
-/* .text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  animation: circular-motion 5s linear infinite;
-}
-
-@keyframes circular-motion {
-  from {
-    transform: rotate(0deg) translateX(100px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(100px) rotate(-360deg);
-  }
-} */
 
 @media screen and (max-width: 1000) {
   .app__introduction-box p {
     font-size: 18px;
   }
 }
-/* @media screen and (max-width:800) {
-    .app__introduction-left p {
-        font-size: 16px;
-      }
-} */
 @media screen and (max-width: 850px) {
   .app__introduction-box p {
     padding-right: 0rem;

@@ -76,7 +76,7 @@ const Projects = () => {
           img5={images.giricht5}
           title="Gericht Resto"
           text=" Il s'agit du site web d'un restaurant. Ce projet fait partir de mes nombreux projets 
-          realises pour le 'fun'. it était question d'intégrer une maquette figma."
+          réalisés pour le 'fun'. Il était question d'intégrer une maquette figma."
           initialColor={"text-initial-color"}
           link="https://gericht-a.netlify.app/"
           newColor={"text-new-color"}

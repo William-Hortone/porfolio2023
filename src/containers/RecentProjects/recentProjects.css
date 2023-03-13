@@ -6,7 +6,6 @@
   gap: 4rem;
   margin-top: 2rem;
   position: relative;
-  /* background-color: antiquewhite; */
 }
 
 .app__recentProjects-container {
@@ -15,14 +14,8 @@
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  /* background-color: red; */
   margin-top: 3rem;
 }
-/* @media screen and (max-width: 768px) {
-  .app__recentProjects-container {
-    justify-content: center;
-  }
-} */
 .link_see-more {
   position: relative;
   width: fit-content;

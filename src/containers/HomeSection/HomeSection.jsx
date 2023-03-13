@@ -4,7 +4,7 @@ import "./homeSection.css";
 
 const HomeSection = () => {
   return (
-    <div className="app__homeSection section__paddingd">
+    <div className="app__homeSection ">
       <Header />
       <div className="app__homeSection-container section__padding">
         <HeadText textContent="William" />

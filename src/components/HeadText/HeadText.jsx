@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./headText.css";
 import { Letter } from "../../components";
+
+import "./headText.css";
 
 const HeadText = ({ textContent }) => {
   const letters = textContent.split("");

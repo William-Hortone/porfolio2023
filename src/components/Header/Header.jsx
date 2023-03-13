@@ -1,6 +1,6 @@
 import React from "react";
 import images from "../../constants/images";
-import { FaInstagram, FaLinkedinIn, FaYoutube, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 import "./header.css";
 

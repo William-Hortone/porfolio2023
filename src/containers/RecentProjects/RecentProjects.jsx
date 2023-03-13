@@ -50,7 +50,7 @@ const RecentProjects = () => {
           img5={images.giricht5}
           title="Gericht Resto"
           text="Il s'agit du site web d'un restaurant. Ce projet fait partir de mes nombreux projets 
-          realises pour le 'fun'. it était question d'intégrer une maquette figma."
+          réalisés pour le 'fun'. Il était question d'intégrer une maquette figma."
           link="https://gericht-a.netlify.app/"
           sProjectNInitialBg={"sp-new-bg"}
           sProjectNewBg={"sp-initial-bg"}

@@ -38,7 +38,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* box-shadow: 1px 3px 3px 1px #0000006c; */
 }
 .app__navbar-container div:nth-of-type(2) {
   flex: 1;
@@ -48,8 +47,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* opacity: 0.7; */
-  /* box-shadow: 1px 3px 3px 1px #0000006c; */
 }
 .app__navbar-container h4 {
   font-size: 2rem;
@@ -65,7 +62,6 @@
   left: 50%;
   display: flex;
   flex-direction: column;
-  /* transform: translate(-50%, -10%); */
   transform: translateX(-50%);
   background-color: var(--color-crimson);
   border-radius: 10px;
