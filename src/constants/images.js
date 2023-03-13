@@ -9,7 +9,6 @@ import wh from "../assets/wh.jpg";
 import wh2 from "../assets/wh2.png";
 import wh_left from "../assets/2-left.jpg";
 import wh_right from "../assets/2-right.jpg";
-import video from "../assets/video.mp4";
 import photo from "../assets/photo.png";
 import ona1 from "../assets/ona1.png";
 import ona2 from "../assets/ona2.png";
@@ -82,7 +81,6 @@ export default {
   wh_right,
   wh,
   wh2,
-  video,
   photo,
   williamOne,
   williamTwo,

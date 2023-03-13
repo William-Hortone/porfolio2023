@@ -5,11 +5,11 @@ import images from "../../constants/images";
 import {
   Navbar,
   SingleProject,
-  Title,
   Header,
   Footer,
   PageTitle,
 } from "../../components";
+
 import "./projects.css";
 
 const Projects = () => {
@@ -45,7 +45,7 @@ const Projects = () => {
           title="Clone YouTube"
           text=" Il s’agit d’un challenge personnel que je me suis lancé. 
           À savoir, réaliser l'application YouTube en me servant de Rapid API ce qui 
-          donne la possibilité d'accéder a toutes les chaînes YouTube et a leurs 
+          donne la possibilité d'accéder à toutes les chaînes YouTube et a leurs 
           contenus. Ce project est également responsive."
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
@@ -83,7 +83,6 @@ const Projects = () => {
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
         />
-
         <SingleProject
           img={images.portfolio1}
           img2={images.portfolio2}
@@ -99,7 +98,6 @@ const Projects = () => {
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
         />
-
         <SingleProject
           img={images.yanga1}
           img2={images.yanga2}
@@ -114,7 +112,6 @@ const Projects = () => {
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
         />
-
         <SingleProject
           img={images.linkedin}
           img2={images.linkedin2}
