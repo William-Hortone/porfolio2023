@@ -92,7 +92,7 @@ const Projects = () => {
           title="Ancien Portfolio"
           text="En 2022 afin de partager mes projets, mais aussi afin d'améliorer mes connaissances 
           en développement front-end, j'ai réalisé mon premier portfolio."
-          link="https://williamhortone.com/"
+          link="https://wh-first-portfolio.netlify.app/"
           initialColor={"text-initial-color"}
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}
@@ -111,6 +111,7 @@ const Projects = () => {
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
+          link="https://dev-gabfashion.pantheonsite.io/"
         />
         <SingleProject
           img={images.linkedin}

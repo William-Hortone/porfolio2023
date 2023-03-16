@@ -7,7 +7,6 @@
   background-color: var(--color-black);
   transition: 0.3s ease-out;
 }
-
 svg text {
   stroke: #0ed1c1;
   text-transform: uppercase;
@@ -16,7 +15,6 @@ svg text {
   font-family: Arial, Helvetica, sans-serif;
   stroke-width: 5;
   animation: textAnimate 3s infinite alternate;
-  /* font-family: "CustomFontFamily"; */
 }
 @keyframes textAnimate {
   0% {
