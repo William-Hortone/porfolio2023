@@ -42,7 +42,7 @@ import portfolio4 from "../assets/porfolio4.png";
 import portfolio5 from "../assets/porfolio5.png";
 import portfolio6 from "../assets/porfolio6.png";
 
-import certificate from "../assets/certificate.png";
+import certificate from "../assets/certificate.jpg";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import js from "../assets/js2.png";
