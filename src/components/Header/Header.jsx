@@ -1,6 +1,6 @@
 import React from "react";
 import images from "../../constants/images";
-import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 import "./header.css";
 
@@ -17,8 +17,8 @@ const Header = () => {
         <a href="https://github.com/William-Hortone" targe="blank">
           <FaGithub style={{ color: "white", fontSize: "20px " }} />
         </a>
-        <a href="https://www.instagram.com/will_hortone/" targe="blank">
-          <FaInstagram style={{ color: "white", fontSize: "20px " }} />
+        <a href="https://twitter.com/williamhortone" targe="blank">
+          <FaTwitter style={{ color: "white", fontSize: "20px " }} />
         </a>
       </div>
     </div>
