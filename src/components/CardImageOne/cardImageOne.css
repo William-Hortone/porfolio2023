@@ -7,7 +7,6 @@
   height: 100%;
   position: relative;
   overflow: hidden;
-  /* background-color: var(--color-grey-one); */
 }
 .app__cardImageOne img {
   width: 100%;
@@ -17,9 +16,6 @@
 }
 
 .app__cardImageOne-container span {
-  /* content: ""; */
-  /* display: block; */
-  /* display: flex; */
   position: absolute;
   width: 100%;
   height: 100%;
@@ -29,7 +25,6 @@
   bottom: 0;
   transform: translateX(-100%);
   z-index: 2;
-  /* background: var(--color-white); */
   background-color: bisque;
   animation: slide-in 0.75s ease-out forwards,
     slide-out 0.75s 1s ease-out forwards;

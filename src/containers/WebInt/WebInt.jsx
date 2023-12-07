@@ -50,9 +50,9 @@ const WebInt = () => {
           className="webInt-container-left scroll-animation"
           ref={elementRef}
         >
-          <h2>Intégrateur web</h2>
+          <h2>Web Integrator</h2>
           <div className="webInt-container-left-img">
-            <img src={images.wh2} alt="photo of william" />
+            <img src={images.wh2} alt="person" />
           </div>
         </div>
         <div
@@ -60,12 +60,13 @@ const WebInt = () => {
           ref={rightElementRef}
         >
           <p>
-            Avec un sens d’observation assez développé, je réalise des sites et
-            applications web identiques aux maquettes en travaillant en étroite
-            collaboration avec un designer ou en m’inspirant d'autres sites.
+            With a keen sense of observation, I create websites and web
+            applications that mirror the designs, either through close
+            collaboration with a designer or having inspiration from other
+            websites.
           </p>
           <div className="webInt-container-right-img">
-            <img src={images.wh2} alt="photo of william" />
+            <img src={images.wh2} alt="person" />
           </div>
         </div>
       </div>

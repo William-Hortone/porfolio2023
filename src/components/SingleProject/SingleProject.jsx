@@ -39,22 +39,22 @@ const SingleProject = ({
         <h2 className={scroll ? `${newColor}` : `${initialColor}`}>{title}</h2>
         <p className={scroll ? `${newColor}` : `${initialColor}`}>{text}</p>
       </div>
-      <a href={link} className="app__singleProject-right">
+      <a href={link} target="blank" className="app__singleProject-right">
         <div className="app__singleProject-right_container">
           <div className="app__singleProject-right-box">
-            <img src={img} alt="photo of project" />
+            <img src={img} alt="screenshot of project" />
           </div>
           <div className="app__singleProject-right-box">
-            <img src={img2} alt="photo of project" />
+            <img src={img2} alt="screenshot of project" />
           </div>
           <div className="app__singleProject-right-box">
-            <img src={img3} alt="photo of project" />
+            <img src={img3} alt="screenshot of project" />
           </div>
           <div className="app__singleProject-right-box">
-            <img src={img4} alt="photo of project" />
+            <img src={img4} alt="screenshot of project" />
           </div>
           <div className="app__singleProject-right-box">
-            <img src={img5} alt="photo of project" />
+            <img src={img5} alt="screenshot of project" />
           </div>
         </div>
       </a>

@@ -1,5 +1,4 @@
 import React from "react";
-
 import { FaArrowUp } from "react-icons/fa";
 import {
   Navbar,
@@ -9,7 +8,6 @@ import {
   PageTitle,
 } from "../../components";
 import { AboutMe, Skills, Certificate } from "../../containers";
-
 import "./about.css";
 
 const About = () => {
@@ -18,7 +16,7 @@ const About = () => {
       <Navbar />
       <Header />
       <div className="app__about-title">
-        <PageTitle textContent="A-propos" />
+        <PageTitle textContent="About-Me" />
         <span className="line" />
       </div>
       <AboutMe />

@@ -18,6 +18,7 @@
   padding-right: 8rem;
   font-size: 20px;
   line-height: 2.5;
+  text-transform: uppercase;
   color: var(--color-white);
   font-family: var(--font-base);
 }

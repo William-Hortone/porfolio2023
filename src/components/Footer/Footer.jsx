@@ -1,15 +1,17 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-
 import "./footer.css";
 
 const Footer = ({ color }) => {
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
-    <div className={`${color}` + " app__footer section__padding"} id="contact">
+    <div className={`app__footer section__padding ${color}`} id="contact">
       <div className="app__footer-box_titles">
-        <h3>TU EMBAUCHES ?</h3>
-        <h3>UNE COLLABORATION ?</h3>
-        <h3>TU AS UN PROJET ?</h3>
+        <h3>ARE YOU HIRING?</h3>
+        <h3>WANT A COLLABORATION ?</h3>
+        <h3>DO YOU HAVE A PROJECT?</h3>
       </div>
       <div className="app__footer-box-email">
         <span className="footer-arrow">
@@ -20,7 +22,7 @@ const Footer = ({ color }) => {
         </a>
       </div>
       <div className="app__footer-box-copyright">
-        <p>William Hortone @2023</p>
+        <p>William Hortone @{year}</p>
         <p>Designed & Developed By William Hortone</p>
       </div>
     </div>

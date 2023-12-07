@@ -1,7 +1,6 @@
 import React from "react";
 import images from "../../constants/images";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
-
 import "./header.css";
 
 const Header = () => {

@@ -6,12 +6,12 @@ const SlidingText = () => {
     <div className="app__slidingText">
       <div className="app__slidingText-container">
         <div className="sliding-content">
-          <span>&nbsp;Etudiant en software engineering -&nbsp;</span>
-          <span>Developpeur Frontend -&nbsp;</span>
+          <span>&nbsp;Student in software engineering -&nbsp;</span>
+          <span>Frontend Developer -&nbsp;</span>
         </div>
         <div className="sliding-content">
-          <span>&nbsp;Etudiant en software engineering -&nbsp;</span>
-          <span>Developpeur Frontend -&nbsp;</span>
+          <span>&nbsp;Student in software engineering -&nbsp;</span>
+          <span>Frontend Developer -&nbsp;</span>
         </div>
       </div>
     </div>

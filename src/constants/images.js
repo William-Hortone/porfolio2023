@@ -41,7 +41,6 @@ import portfolio3 from "../assets/porfolio3.png";
 import portfolio4 from "../assets/porfolio4.png";
 import portfolio5 from "../assets/porfolio5.png";
 import portfolio6 from "../assets/porfolio6.png";
-
 import certificate from "../assets/certificate.jpg";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -57,8 +56,33 @@ import react from "../assets/react.png";
 import netlify from "../assets/netlify.png";
 import figma from "../assets/figma.png";
 import bootstrap from "../assets/bootstrap.png";
+import reactNative from "../assets/reactnative.png";
+import nodejs from "../assets/nodejs.png";
+import firebase from "../assets/firebase.png";
+import angular from "../assets/angular.png";
+import express from "../assets/express.png";
+import mongoDB from "../assets/mongoDB.png";
+import jira from "../assets/jira.png";
+import typeScript from "../assets/typescript.png";
+import aesgc from "../assets/aesgc.png";
+import aesgc2 from "../assets/aesgc2.png";
+import aesgc3 from "../assets/aesgc3.png";
+import aesgc4 from "../assets/aesgc4.png";
+import aesgc5 from "../assets/aesgc5.png";
+import aesgc6 from "../assets/aesgc6.png";
+import fd from "../assets/fd.png";
+import fd2 from "../assets/fd2.png";
+import fd3 from "../assets/fd3.png";
+import fd4 from "../assets/fd4.png";
+import fd5 from "../assets/fd5.png";
+import fd6 from "../assets/fd6.png";
+import lbvh from "../assets/lbvh.png";
+import lbvh2 from "../assets/lbvh2.png";
+import lbvh3 from "../assets/lbvh3.png";
+import lbvh4 from "../assets/lbvh4.png";
+import lbvh5 from "../assets/lbvh5.png";
 
-export default {
+const images = {
   html,
   netlify,
   react,
@@ -117,4 +141,30 @@ export default {
   portfolio4,
   portfolio5,
   portfolio6,
+  reactNative,
+  nodejs,
+  express,
+  mongoDB,
+  firebase,
+  typeScript,
+  jira,
+  angular,
+  aesgc,
+  aesgc2,
+  aesgc3,
+  aesgc4,
+  aesgc5,
+  aesgc6,
+  fd,
+  fd2,
+  fd3,
+  fd4,
+  fd5,
+  fd6,
+  lbvh,
+  lbvh2,
+  lbvh3,
+  lbvh4,
+  lbvh5,
 };
+export default images;

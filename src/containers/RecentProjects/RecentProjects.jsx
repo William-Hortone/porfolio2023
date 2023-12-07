@@ -7,7 +7,7 @@ import "./recentProjects.css";
 const RecentProjects = () => {
   return (
     <div className="app__recentProjects section__padding">
-      <Title title="Projets Récents" />
+      <Title title="Recent Projects " />
       <div className="app__recentProjects-container">
         <SingleProject
           img={images.youtube}
@@ -15,11 +15,8 @@ const RecentProjects = () => {
           img3={images.youtube3}
           img4={images.youtube4}
           img5={images.youtube2}
-          title="Clone Youtube"
-          text=" Il s’agit d’un challenge personnel que je me suis lancé. 
-          À savoir, réaliser l'application YouTube en me servant de Rapid API. Ce qui 
-          donne la possibilité d'accéder a toutes les chaînes YouTube et a leurs 
-          contenus. Ce project est également responsive"
+          title="YouTube Clone"
+          text="It's a personal challenge. I challenged myself  to create the YouTube application using Rapid API. This enables access to all YouTube channels and their content. Additionally, this project is responsive"
           link="https://willtube.netlify.app/"
           sProjectNInitialBg={"sp-new-bg"}
           sProjectNewBg={"sp-initial-bg"}
@@ -33,9 +30,7 @@ const RecentProjects = () => {
           img4={images.ona3}
           img5={images.ona4}
           title="Ona Batiment"
-          text=" ONA Bâtiment est une entreprise générale de bâtiment répartie en trois pôles :
-           Conception architecturale, bureau d’études et travaux.J'ai essentiellement été au cœur 
-           du projet. Du choix de la maquette à la mis en ligne du site."
+          text=" ONA BATIMENT is a general building company divided into three divisions: Architectural design, engineering office, and construction. I was primarily at the heart of the project, from selecting the model to launching the website."
           link="https://onabatiment.com/"
           sProjectNInitialBg={"sp-new-bg"}
           sProjectNewBg={"sp-initial-bg"}
@@ -49,8 +44,7 @@ const RecentProjects = () => {
           img4={images.giricht4}
           img5={images.giricht5}
           title="Gericht Resto"
-          text="Il s'agit du site web d'un restaurant. Ce projet fait partir de mes nombreux projets 
-          réalisés pour le 'fun'. Il était question d'intégrer une maquette figma."
+          text="This is the website of a restaurant. This project is part of my numerous projects undertaken for fun. The goal was to integrate a Figma mockup."
           link="https://gericht-a.netlify.app/"
           sProjectNInitialBg={"sp-new-bg"}
           sProjectNewBg={"sp-initial-bg"}
@@ -58,7 +52,7 @@ const RecentProjects = () => {
           newColor={"text-initial-color"}
         />
         <Link to="/projects" className="link_see-more">
-          Voir plus
+          See more
         </Link>
       </div>
     </div>

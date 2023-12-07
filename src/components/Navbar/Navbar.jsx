@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { HeadText } from "../../components";
-import { FaTimes, FaSign } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
-
+import React, { useEffect, useState } from "react";
+import { FaTimes } from "react-icons/fa";
+import { Link, useLocation } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -11,21 +8,19 @@ const Navbar = () => {
   const [pageName, setPageName] = useState("");
   const location = useLocation();
 
-  const FindPathName = () => {
-    if (location.pathname === "/") {
-      setPageName("Accueil");
-    } else if (location.pathname === "/about") {
-      setPageName("A Propos");
-    } else if (location.pathname === "/projects") {
-      setPageName("Projets");
-    }
-  };
-
   useEffect(() => {
+    const FindPathName = () => {
+      if (location.pathname === "/") {
+        setPageName("Home");
+      } else if (location.pathname === "/about") {
+        setPageName("About");
+      } else if (location.pathname === "/projects") {
+        setPageName("Projects");
+      }
+    };
     FindPathName();
-  }, []);
+  }, [location.pathname]);
 
-  console.log(location);
   return (
     <div className={showMenu ? "app__navbar-opened" : "app__navbar"}>
       <div className="app__navbar-container">
@@ -44,7 +39,7 @@ const Navbar = () => {
         <ul className="navbar-links">
           <li>
             <Link to="/" className="link" onClick={() => setShowMenu(false)}>
-              Accueil
+              Home
             </Link>
           </li>
           <li>
@@ -53,7 +48,7 @@ const Navbar = () => {
               className="link"
               onClick={() => setShowMenu(false)}
             >
-              Apropos
+              About
             </Link>
           </li>
           <li>

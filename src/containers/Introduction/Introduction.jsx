@@ -6,15 +6,15 @@ import "./introduction.css";
 const Introduction = () => {
   return (
     <div className="app__introduction section__padding">
-      <Title title="Me Concernant" />
+      <Title title="About Me" />
       <div className="app__introduction-box">
         <div className="space" />
         <p>
-          ÉPRIS DES OUTILS INFORMATIQUES ET LES NOUVELLES TECHNOLOGIES, JE SUIS
-          ATTIRÉ PAR LE DÉVELOPPEMENT WEB, MAIS ENCORE PLUS PAR LE DÉVELOPPEMENT
-          FRONT-END. QUAND JE NE TRAVAILLE PAS SUR UN PROJET OU QUAND JE
-          N’ÉTUDIE PAS, JE FAIS PROBABLEMENT DU SPORT OU JE JOUE AUX JEUX
-          VIDÉOS.
+          Captivated by computer tools and emerging technologies, my focus lies
+          in web & App development, with a particular emphasis on front-end
+          development. During my leisure time, when not engrossed in a project
+          or studying, you'll likely find me participating in sports or engaging
+          in video games
         </p>
       </div>
     </div>

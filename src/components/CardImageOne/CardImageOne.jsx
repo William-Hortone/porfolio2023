@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import images from "../../constants/images";
 import "./cardImageOne.css";
 
@@ -7,7 +7,7 @@ const CardImage = () => {
     <div className="app__cardImageOne">
       <div className="app__cardImageOne-container">
         <span />
-        <img src={images.wh} alt="" className="img-anim" />
+        <img src={images.wh} alt="person" className="img-anim" />
       </div>
     </div>
   );

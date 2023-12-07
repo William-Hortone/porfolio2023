@@ -1,20 +1,19 @@
 import React from "react";
 import images from "../../constants/images";
 import { CardImage, Title } from "../../components";
-
 import "./certificate.css";
 
 const Certificate = () => {
   return (
     <div className="app__certificate section__padding">
-      <Title title="Certificat" />
+      <Title title="Certificates" />
       <div className="app__certificate-container">
         <div className="app__certificate-left">
           <p>
-            En janvier 2023, j'ai été sélectionné pour participer, un hackathon
-            organisé par Neza Tech ( une compagnie basée en Chine ) et dont le
-            défi était de réaliser une application mobile ou web qui apprend à
-            jouer d'un instrument. Mon groupe a obtenu la deuxième place.
+            In January 2023, I was selected to participate in a hackathon
+            organized by Neza Tech, a company based in China. The challenge was
+            to develop a mobile or web application that teaches how to play a
+            musical instrument. My team achieved the second position.
           </p>
         </div>
         <div className="app__certificate-right">

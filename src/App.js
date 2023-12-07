@@ -3,7 +3,6 @@ import { Preloader } from "./components";
 import { Home, About, Projects } from "./pages";
 import { Routes, Route } from "react-router-dom";
 import Lenis from "@studio-freight/lenis";
-
 import "./App.css";
 
 const App = () => {

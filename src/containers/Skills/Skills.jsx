@@ -15,24 +15,24 @@ const Skills = () => {
           </div>
         </div>
         <div className="app__skill-container-right">
-          <Skill skillTitle="html" img={images.html} />
-          <Skill skillTitle="css" img={images.css} />
+          <Skill skillTitle="html5" img={images.html} />
+          <Skill skillTitle="css3" img={images.css} />
           <Skill skillTitle="javascript" img={images.js} />
-          <Skill skillTitle="TypeScript" />
+          <Skill skillTitle="TypeScript" img={images.typeScript} />
           <Skill skillTitle="react js" img={images.react} />
-          <Skill skillTitle="react Native" />
-          <Skill skillTitle="Angular" />
+          <Skill skillTitle="react Native" img={images.reactNative} />
+          <Skill skillTitle="Angular JS" img={images.angular} />
+          <Skill skillTitle="Node js" img={images.nodejs} />
+          <Skill skillTitle="Express js" img={images.express} />
+          <Skill skillTitle="MongoDB" img={images.mongoDB} />
+          <Skill skillTitle="Firebase" img={images.firebase} />
           <Skill skillTitle="tailwind css" img={images.tailwind} />
           <Skill skillTitle="bootstrap" img={images.bootstrap} />
           <Skill skillTitle="wordpress" img={images.wordpress} />
-          <Skill skillTitle="C++" img={images.cpp} />
-          <Skill skillTitle="Material Ui" img={images.material} />
           <Skill skillTitle="framer-motion" img={images.motion} />
           <Skill skillTitle="git & Github" img={images.git} />
-          <Skill skillTitle="Jira Software" />
-          <Skill skillTitle="Netlify" img={images.netlify} />
+          <Skill skillTitle="Jira Software" img={images.jira} />
           <Skill skillTitle="figma" img={images.figma} />
-          <Skill skillTitle="vs code" img={images.vscode} />
         </div>
       </div>
     </div>

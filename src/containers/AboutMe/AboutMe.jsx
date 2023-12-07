@@ -1,6 +1,5 @@
 import React from "react";
 import { CardImageOne } from "../../components";
-
 import "./aboutMe.css";
 
 const AboutMe = () => {
@@ -13,11 +12,11 @@ const AboutMe = () => {
       </div>
       <div className="app__aboutMe-right">
         <p>
-          Je suis un développeur front-end, étudiant en Software Engineering en
-          chine, j’aime le travail, l’apprentissage et me surpasser. C'est avec
-          le même enthousiasme que je réalise chaque projet. <br /> <br /> J'ai
-          des antécédents linguistiques dans la mesure où, en plus du français,
-          je parle aussi l'anglais et le mandarin.
+          I am a front-end developer and a student in Software Engineering in
+          China. I have a passion for work, learning, and pushing my limits. I
+          approach each project with the same enthusiasm. <br /> <br /> I have a
+          linguistic background, as I speak not only French but also English and
+          Chinese
         </p>
       </div>
     </div>
