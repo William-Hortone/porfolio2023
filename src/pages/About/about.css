@@ -61,10 +61,11 @@
     padding: 3rem 2rem 0rem 2rem;
   }
   .experience-description h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 3rem;
   }
   .experience-description p {
     margin-top: 3rem;
+    font-size: 17px;
   }
 }
