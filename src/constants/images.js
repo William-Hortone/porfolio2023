@@ -81,6 +81,12 @@ import lbvh2 from "../assets/lbvh2.png";
 import lbvh3 from "../assets/lbvh3.png";
 import lbvh4 from "../assets/lbvh4.png";
 import lbvh5 from "../assets/lbvh5.png";
+import junctionCertificate from "../assets/junction.png";
+import junction1 from "../assets/junction1.jpg";
+import junction2 from "../assets/junction2.jpg";
+import junction3 from "../assets/junction3.jpg";
+import junction4 from "../assets/junction4.jpg";
+import junction5 from "../assets/junction5.jpg";
 
 const images = {
   html,
@@ -166,5 +172,11 @@ const images = {
   lbvh3,
   lbvh4,
   lbvh5,
+  junctionCertificate,
+  junction1,
+  junction2,
+  junction3,
+  junction4,
+  junction5,
 };
 export default images;

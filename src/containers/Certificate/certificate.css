@@ -1,6 +1,6 @@
 .app__certificate {
   width: 100%;
-  height: 80vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -11,12 +11,16 @@
   height: 100%;
   display: flex;
   gap: 3rem;
+  position: relative;
+  justify-content: flex-end;
 }
 .app__certificate-left {
-  height: 100%;
+  position: relative;
+  height: auto;
   flex: 1;
   display: flex;
   align-items: center;
+  background-color: var(--color-black);
 }
 .app__certificate-left p {
   font-size: 20px;
@@ -25,6 +29,85 @@
   letter-spacing: 1.5px;
   line-height: 1.5;
 }
+.app__certificate-images {
+  width: 50%;
+  height: 100%;
+  flex: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  justify-self: end;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.app__certificate-images:active {
+  width: 100%;
+}
+
+.wrapper_certificate-image {
+  width: auto;
+  height: 100%;
+  display: flex;
+}
+
+.wrapper_certificate-image-left {
+  width: 45vw;
+  height: 100%;
+}
+.wrapper_certificate-image-right {
+  width: 42.5vw;
+  height: 100%;
+  display: grid;
+  background-color: var(--color-black);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+.image1 {
+  grid-area: 1 / 1 / 3 / 3;
+  background: url("../../assets/neza.jpg") center center;
+  background-size: cover;
+}
+.image2 {
+  grid-area: 3 / 1 / 5 / 2;
+  background: url("../../assets/neza2.jpg") center center;
+  background-size: cover;
+}
+.image3 {
+  grid-area: 3 / 2 / 5 / 4;
+
+  background: url("../../assets/neza4.jpg") center center;
+  background-size: cover;
+}
+.image4 {
+  grid-area: 1 / 3 / 3 / 4;
+  background: url("../../assets/neza5.jpg") center center;
+  background-size: cover;
+}
+.image5 {
+  grid-area: 1 / 1 / 3 / 2.5;
+  background: url("../../assets/junction4.jpg") center center;
+  background-size: cover;
+}
+.image6 {
+  grid-area: 3 / 1 / 5 / 5;
+  background: url("../../assets/junction2.jpg") center center;
+  background-size: cover;
+}
+.image7 {
+  grid-area: 2 / 1 / 3 / 2.5;
+  background: url("../../assets/junction3.jpg") center center;
+  background-size: cover;
+}
+.image8 {
+  grid-area: 1 / 2 / 3 / 6;
+  background: url("../../assets/junction5.jpg") center center;
+  background-size: cover;
+}
+
 .app__certificate-right {
   flex: 1;
   display: flex;
@@ -36,7 +119,7 @@
 }
 @media screen and (max-width: 1200px) {
   .app__certificate {
-    height: 70vh;
+    height: auto;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -61,12 +144,62 @@
   .app__certificate-container {
     flex-direction: column;
   }
-  .app__certificate-right-img {
-    width: 90%;
+  .wrapper_certificate-image {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .app__certificate-images {
+    width: 100%;
+    height: 50%;
+    flex: 1;
+    bottom: 0 !important;
+    top: auto;
+    align-items: flex-end;
+  }
+
+  .wrapper_certificate-image-left {
+    width: 92.5vw;
+    height: 50vh;
+  }
+  .wrapper_certificate-image-right {
+    width: 92.5vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+
+  .app__certificate-images:active {
+    height: 100vh;
+  }
+
+  .junction {
+    display: none;
   }
 }
 @media screen and (max-width: 550px) {
   .app__certificate-right-img {
     width: 100%;
   }
+}
+.circle {
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--color-gray);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10;
+  cursor: none;
+  transition: opacity 3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+  color: white;
 }
