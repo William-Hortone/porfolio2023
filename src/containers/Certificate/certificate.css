@@ -55,11 +55,11 @@
 }
 
 .wrapper_certificate-image-left {
-  width: 45vw;
+  width: 43.5vw;
   height: 100%;
 }
 .wrapper_certificate-image-right {
-  width: 42.5vw;
+  width: 45.5vw;
   height: 100%;
   display: grid;
   background-color: var(--color-black);
