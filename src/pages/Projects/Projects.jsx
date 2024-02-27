@@ -159,6 +159,20 @@ const Projects = () => {
           sProjectNewBg={"sp-new-bg"}
           link="https://github.com/William-Hortone/school-projects"
         />
+        <SingleProject
+          img={images.figmaToCode1}
+          img2={images.figmaToCode2}
+          img3={images.figmaToCode3}
+          img4={images.figmaToCode4}
+          img5={images.figmaToCode5}
+          title="Figma To Code Challenge"
+          text="This project is a challenge launched on LinkedIn and Twitter involving various frontend developers. The goal is to integrate 5 different Figma designs. This is the first design"
+          initialColor={"text-initial-color"}
+          newColor={"text-new-color"}
+          sProjectNInitialBg={"sp-initial-bg"}
+          sProjectNewBg={"sp-new-bg"}
+          link="https://william-hortone.netlify.app/"
+        />
       </div>
       <Footer color={"color-black"} />
       <a href="#home" className="app__goToTop">

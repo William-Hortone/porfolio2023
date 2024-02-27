@@ -87,6 +87,11 @@ import junction2 from "../assets/junction2.jpg";
 import junction3 from "../assets/junction3.jpg";
 import junction4 from "../assets/junction4.jpg";
 import junction5 from "../assets/junction5.jpg";
+import figmaToCode1 from "../assets/figmaToCode1 (1).png";
+import figmaToCode2 from "../assets/figmaToCode1 (2).png";
+import figmaToCode3 from "../assets/figmaToCode1 (3).png";
+import figmaToCode4 from "../assets/figmaToCode1 (4).png";
+import figmaToCode5 from "../assets/figmaToCode1 (5).png";
 
 const images = {
   html,
@@ -178,5 +183,10 @@ const images = {
   junction3,
   junction4,
   junction5,
+  figmaToCode1,
+  figmaToCode2,
+  figmaToCode3,
+  figmaToCode4,
+  figmaToCode5,
 };
 export default images;
