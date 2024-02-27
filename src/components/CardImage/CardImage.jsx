@@ -10,7 +10,6 @@ const CardImage = ({ img }) => {
       const cardImage = cardImageRef.current;
       const img = imageRef.current;
       const distanceFromTop = cardImage.getBoundingClientRect().top;
-      // const imgDistanceFromTop = img.getBoundingClientRect().top;
 
       if (distanceFromTop <= window.innerHeight) {
         cardImage.classList.add("animate");

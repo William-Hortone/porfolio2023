@@ -159,6 +159,7 @@ const Projects = () => {
           sProjectNewBg={"sp-new-bg"}
           link="https://github.com/William-Hortone/school-projects"
         />
+        
         <SingleProject
           img={images.figmaToCode1}
           img2={images.figmaToCode2}
