@@ -12,6 +12,7 @@ import HeadText from "./HeadText/HeadText";
 import SlidingText from "./SlidingText/SlidingText";
 import PageTLetter from "./PageTLetter/PageTLetter";
 import PageTitle from "./PageTitle/PageTitle";
+import NativeProject from "./nativeProject/NativeProject";
 // import CircleText from "./CircleText/CircleText";
 
 export {
@@ -29,5 +30,6 @@ export {
   SlidingText,
   PageTLetter,
   PageTitle,
+  NativeProject,
   // CircleText,
 };

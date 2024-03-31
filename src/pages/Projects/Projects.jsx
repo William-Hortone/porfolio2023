@@ -7,6 +7,7 @@ import {
   Header,
   Footer,
   PageTitle,
+  NativeProject,
 } from "../../components";
 import "./projects.css";
 
@@ -143,7 +144,7 @@ const Projects = () => {
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
-          link="https://linkedin-clone3.netlify.app/"
+          link="https://linkedin-clone.netlify.app/"
         />
         <SingleProject
           img={images.lbvh5}
@@ -152,14 +153,14 @@ const Projects = () => {
           img4={images.lbvh2}
           img5={images.lbvh}
           title="Hospital management system"
-          text="This is one of my final year projects, the main idea is to create a hospital management system. It's a full-stack project currently in development and only available on my GitHub for now (github.com/William-Hortone/school-projects)."
+          text="This is one of my final year projects, the main idea is to create a hospital management system. This project is only available on my GitHub for now (github.com/William-Hortone/school-projects)."
           initialColor={"text-initial-color"}
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
-          link="https://github.com/William-Hortone/school-projects"
+          link="https://github.com/William-Hortone/school-projects/tree/main/hospital-management-system"
         />
-        
+
         <SingleProject
           img={images.figmaToCode1}
           img2={images.figmaToCode2}
@@ -174,6 +175,29 @@ const Projects = () => {
           sProjectNewBg={"sp-new-bg"}
           link="https://william-hortone.netlify.app/"
         />
+        <SingleProject
+          img={images.score1}
+          img2={images.score6}
+          img3={images.score3}
+          img4={images.score4}
+          img5={images.score5}
+          title="Score management System"
+          text="This is one of my final year projects, the main idea is to create a Score management system for Engineering Education. This project is currently in development and only available on my GitHub for now (github.com/William-Hortone/school-projects)."
+          initialColor={"text-initial-color"}
+          newColor={"text-new-color"}
+          sProjectNInitialBg={"sp-initial-bg"}
+          sProjectNewBg={"sp-new-bg"}
+          link="https://github.com/William-Hortone/school-projects/tree/main/score-management-system"
+        />
+
+        {/* <NativeProject
+          title="Score management System"
+          text="This is one of my final year projects, the main idea is to create a Score management system for Engineering Education. This project is currently in development and only available on my GitHub for now (github.com/William-Hortone/school-projects)."
+          initialColor={"text-initial-color"}
+          newColor={"text-new-color"}
+          initialBg={"sp-initial-bg"}
+          newBg={"sp-new-bg"}
+        /> */}
       </div>
       <Footer color={"color-black"} />
       <a href="#home" className="app__goToTop">

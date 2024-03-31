@@ -92,6 +92,13 @@ import figmaToCode2 from "../assets/figmaToCode1 (2).png";
 import figmaToCode3 from "../assets/figmaToCode1 (3).png";
 import figmaToCode4 from "../assets/figmaToCode1 (4).png";
 import figmaToCode5 from "../assets/figmaToCode1 (5).png";
+import score1 from "../assets/score1.jpg";
+import score2 from "../assets/score2.jpg";
+import score3 from "../assets/score3.jpg";
+import score4 from "../assets/score4.jpg";
+import score5 from "../assets/score5.jpg";
+import score6 from "../assets/score6.jpg";
+import score7 from "../assets/score7.jpg";
 
 const images = {
   html,
@@ -188,5 +195,12 @@ const images = {
   figmaToCode3,
   figmaToCode4,
   figmaToCode5,
+  score1,
+  score2,
+  score3,
+  score4,
+  score5,
+  score6,
+  score7,
 };
 export default images;
