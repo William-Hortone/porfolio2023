@@ -6,7 +6,6 @@ const NativeProject = ({
   img2,
   img3,
   img4,
-  img5,
   title,
   text,
   link,
@@ -54,13 +53,6 @@ const NativeProject = ({
               <img src={img4} alt="project" className="nativeP-img" />
             </div>
           </div>
-
-          {/* <div className="nativeProject-img native-image1">
-            <img src={img3} alt="project" className="nativeP-img" />
-          </div>
-          <div className="nativeProject-img native-image2">
-            <img src={img4} alt="project" className="nativeP-img" />
-          </div> */}
         </div>
       </a>
     </div>

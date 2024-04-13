@@ -132,7 +132,7 @@ const Projects = () => {
           sProjectNewBg={"sp-new-bg"}
           link="https://dev-gabfashion.pantheonsite.io/"
         />
-        <SingleProject
+        {/* <SingleProject
           img={images.linkedin}
           img2={images.linkedin2}
           img3={images.linkedin3}
@@ -145,7 +145,7 @@ const Projects = () => {
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
           link="https://linkedin-clone.netlify.app/"
-        />
+        /> */}
         <SingleProject
           img={images.lbvh5}
           img2={images.lbvh4}
@@ -191,8 +191,8 @@ const Projects = () => {
         />
 
         <NativeProject
-          title="Score management System"
-          text="This is one of my final year projects, the main idea is to create a Score management system for Engineering Education. This project is currently in development and only available on my GitHub for now (github.com/William-Hortone/school-projects)."
+          title="RapidPay Mobile App"
+          text="RapidPay is a mobile application built with React Native that allows users to book hotel tickets and long-distance bus tickets. The app will be available on the Play Store and App Store soon."
           initialColor={"text-initial-color"}
           newColor={"text-new-color"}
           initialBg={"sp-initial-bg"}
@@ -201,6 +201,7 @@ const Projects = () => {
           img2={images.moidzang5}
           img3={images.moidzang2}
           img4={images.moidzang3}
+          link="https://github.com/William-Hortone/moidzang-pro"
         />
       </div>
       <Footer color={"color-black"} />
