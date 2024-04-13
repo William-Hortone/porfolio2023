@@ -190,14 +190,18 @@ const Projects = () => {
           link="https://github.com/William-Hortone/school-projects/tree/main/score-management-system"
         />
 
-        {/* <NativeProject
+        <NativeProject
           title="Score management System"
           text="This is one of my final year projects, the main idea is to create a Score management system for Engineering Education. This project is currently in development and only available on my GitHub for now (github.com/William-Hortone/school-projects)."
           initialColor={"text-initial-color"}
           newColor={"text-new-color"}
           initialBg={"sp-initial-bg"}
           newBg={"sp-new-bg"}
-        /> */}
+          img1={images.moidzang1}
+          img2={images.moidzang5}
+          img3={images.moidzang2}
+          img4={images.moidzang3}
+        />
       </div>
       <Footer color={"color-black"} />
       <a href="#home" className="app__goToTop">

@@ -99,6 +99,11 @@ import score4 from "../assets/score4.jpg";
 import score5 from "../assets/score5.jpg";
 import score6 from "../assets/score6.jpg";
 import score7 from "../assets/score7.jpg";
+import moidzang1 from "../assets/native1.png";
+import moidzang2 from "../assets/native2.png";
+import moidzang3 from "../assets/native3.png";
+import moidzang4 from "../assets/native4.png";
+import moidzang5 from "../assets/native5.png";
 
 const images = {
   html,
@@ -202,5 +207,10 @@ const images = {
   score5,
   score6,
   score7,
+  moidzang1,
+  moidzang2,
+  moidzang3,
+  moidzang4,
+  moidzang5,
 };
 export default images;

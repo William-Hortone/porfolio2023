@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-
 import "./nativeProject.css";
 
 const NativeProject = ({
-  img,
+  img1,
   img2,
   img3,
   img4,
@@ -39,18 +38,29 @@ const NativeProject = ({
       </div>
       <a href={link} target="blank" className="app__nativeProject-right">
         <div className="app__nativeProject-right_container">
-          <div className="nativeProject-img native-image1">
-            <img src="" alt="project" className="nativeP-img" />
+          <div className="wrapper-content">
+            <div className="nativeProject-img native-image1">
+              <img src={img1} alt="project" className="nativeP-img" />
+            </div>
+            <div className="nativeProject-img native-image2">
+              <img src={img2} alt="project" className="nativeP-img" />
+            </div>
+          </div>
+          <div className="wrapper-content">
+            <div className="nativeProject-img native-image1">
+              <img src={img3} alt="project" className="nativeP-img" />
+            </div>
+            <div className="nativeProject-img native-image2">
+              <img src={img4} alt="project" className="nativeP-img" />
+            </div>
+          </div>
+
+          {/* <div className="nativeProject-img native-image1">
+            <img src={img3} alt="project" className="nativeP-img" />
           </div>
           <div className="nativeProject-img native-image2">
-            <img src="" alt="project" className="nativeP-img" />
-          </div>
-          <div className="nativeProject-img native-image3">
-            <img src="" alt="project" className="nativeP-img" />
-          </div>
-          <div className="nativeProject-img native-image4">
-            <img src="" alt="project" className="nativeP-img" />
-          </div>
+            <img src={img4} alt="project" className="nativeP-img" />
+          </div> */}
         </div>
       </a>
     </div>
