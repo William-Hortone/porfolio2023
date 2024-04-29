@@ -182,12 +182,12 @@ const Projects = () => {
           img4={images.score4}
           img5={images.score5}
           title="Score management System"
-          text="This is one of my final year projects, the main idea is to create a Score management system for Engineering Education. This project is currently in development and only available on my GitHub for now (github.com/William-Hortone/school-projects)."
+          text="This is one of my final year projects, the main idea is to create a Score management system for Engineering Education. This project is built with MERN stack and still in development."
           initialColor={"text-initial-color"}
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
-          link="https://github.com/William-Hortone/school-projects/tree/main/score-management-system"
+          link="https://score-client.vercel.app"
         />
 
         <NativeProject
