@@ -197,9 +197,9 @@ const Projects = () => {
           newColor={"text-new-color"}
           initialBg={"sp-initial-bg"}
           newBg={"sp-new-bg"}
-          img1={images.moidzang1}
-          img2={images.moidzang5}
-          img3={images.moidzang2}
+          img1={images.moidzang6}
+          img2={images.moidzang4}
+          img3={images.moidzang1}
           img4={images.moidzang3}
           link="https://github.com/William-Hortone/moidzang-pro"
         />

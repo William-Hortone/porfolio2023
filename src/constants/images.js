@@ -103,7 +103,7 @@ import moidzang1 from "../assets/native1.png";
 import moidzang2 from "../assets/native2.png";
 import moidzang3 from "../assets/native3.png";
 import moidzang4 from "../assets/native4.png";
-import moidzang5 from "../assets/native5.png";
+import moidzang6 from "../assets/native6.png";
 
 const images = {
   html,
@@ -211,6 +211,7 @@ const images = {
   moidzang2,
   moidzang3,
   moidzang4,
-  moidzang5,
+
+  moidzang6,
 };
 export default images;
