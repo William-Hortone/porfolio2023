@@ -85,7 +85,7 @@ const Projects = () => {
           title="Fournisseur De proximié"
           text="This is a website that highlights the various products and accessories of a supplier.This is a project where I collaborated with a designer to implement the design."
           initialColor={"text-initial-color"}
-          link="https://fournisseurdp.com/"
+          link="https://inspiring-fudge-f1d53d.netlify.app"
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
@@ -132,7 +132,7 @@ const Projects = () => {
           sProjectNewBg={"sp-new-bg"}
           link="https://dev-gabfashion.pantheonsite.io/"
         />
-        {/* <SingleProject
+        <SingleProject
           img={images.linkedin}
           img2={images.linkedin2}
           img3={images.linkedin3}
@@ -144,8 +144,8 @@ const Projects = () => {
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
-          link="https://linkedin-clone.netlify.app/"
-        /> */}
+          link="https://papaya-donut-98f6b8.netlify.app"
+        />
         <SingleProject
           img={images.lbvh5}
           img2={images.lbvh4}
