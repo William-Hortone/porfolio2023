@@ -10,7 +10,7 @@ const Header = () => {
         <img src={images.logo} alt="logo img" />
       </div>
       <div className="app__header-social_media">
-        <a href="https://www.linkedin.com/in/william-hortone/" targe="blank">
+        <a href="https://www.linkedin.com/in/william-paul-abaga-ndong-09b627322" targe="blank">
           <FaLinkedinIn style={{ color: "blue", fontSize: "20px " }} />
         </a>
         <a href="https://github.com/William-Hortone" targe="blank">
