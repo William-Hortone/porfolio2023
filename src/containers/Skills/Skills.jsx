@@ -11,7 +11,7 @@ const Skills = () => {
       <div className="app__skills-container">
         <div className="app__skill-container-left">
           <div className="app__skill-container-left_img">
-            <CardImage img={images.williamThree} />
+            <CardImage img={images.junction5} />
           </div>
         </div>
         <div className="app__skill-container-right">
