@@ -1,23 +1,22 @@
-import React, { useState, useEffect } from "react";
-import { Preloader } from "./components";
-import { Home, About, Projects } from "./pages";
-import { Routes, Route } from "react-router-dom";
-import Lenis from "@studio-freight/lenis";
+import React, { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import { Preloader } from "./components";
+import { About, Home, Projects } from "./pages";
 
 const App = () => {
   const [showPreloader, setShowPreloader] = useState(true);
 
-  useEffect(() => {
-    const lenis = new Lenis();
+  // useEffect(() => {
+  //   const lenis = new Lenis();
 
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
+  //   function raf(time) {
+  //     lenis.raf(time);
+  //     requestAnimationFrame(raf);
+  //   }
 
-    requestAnimationFrame(raf);
-  }, []);
+  //   requestAnimationFrame(raf);
+  // }, []);
 
   useEffect(() => {
     setTimeout(() => {
@@ -27,8 +26,7 @@ const App = () => {
 
   return (
     <>
-      {showPreloader && <Preloader />}
-      {!showPreloader && (
+      {showPreloader? <Preloader /> : (
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
