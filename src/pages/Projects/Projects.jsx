@@ -85,7 +85,7 @@ const Projects = () => {
           title="Fournisseur De proximié"
           text="This is a website that highlights the various products and accessories of a supplier.This is a project where I collaborated with a designer to implement the design."
           initialColor={"text-initial-color"}
-          link="https://inspiring-fudge-f1d53d.netlify.app"
+          link="https://fdp-app-client.vercel.app"
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
