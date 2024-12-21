@@ -50,7 +50,7 @@ const WebInt = () => {
           className="webInt-container-left scroll-animation"
           ref={elementRef}
         >
-          <h2>Web Integrator</h2>
+          <h2>Software Engineer</h2>
           <div className="webInt-container-left-img">
             <img src={images.wh2} alt="person" />
           </div>

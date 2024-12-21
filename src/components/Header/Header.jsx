@@ -1,6 +1,6 @@
 import React from "react";
+import { FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
 import images from "../../constants/images";
-import { FaTwitter, FaLinkedinIn, FaGithub, FaYoutube } from "react-icons/fa";
 import "./header.css";
 
 const Header = () => {
@@ -10,9 +10,9 @@ const Header = () => {
         <img src={images.logo} alt="logo img" />
       </div>
       <div className="app__header-social_media">
-        <a href="https://www.linkedin.com/in/william-hortone" targe="blank">
-          <FaLinkedinIn style={{ color: "blue", fontSize: "20px " }} />
-        </a>
+        {/* <a href="https://www.linkedin.com/in/william-hortone" targe="blank">
+          <FaInstagram style={{ color: "red", fontSize: "20px " }} />
+        </a> */}
         <a href="https://github.com/William-Hortone" targe="blank">
           <FaGithub style={{ color: "white", fontSize: "20px " }} />
         </a>

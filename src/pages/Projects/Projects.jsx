@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
-import images from "../../constants/images";
 import {
-  Navbar,
-  SingleProject,
-  Header,
   Footer,
-  PageTitle,
+  Header,
   NativeProject,
+  Navbar,
+  PageTitle,
+  SingleProject,
 } from "../../components";
+import images from "../../constants/images";
 import "./projects.css";
 
 const Projects = () => {
@@ -33,20 +33,19 @@ const Projects = () => {
       </div>
       <div className="app__projects-container section__padding">
         <SingleProject
-          img={images.youtube}
-          img2={images.youtube2}
-          img3={images.youtube3}
-          img4={images.youtube2}
-          img5={images.youtube4}
+          img={images.fd6}
+          img2={images.fd}
+          img3={images.fd3}
+          img4={images.fd5}
+          img5={images.fd4}
+          title="Fournisseur De proximié"
+          text="This is a website that highlights the various products and accessories of a supplier.This is a project where I collaborated with a designer to implement the design."
           initialColor={"text-initial-color"}
+          link="https://fdp-app-client.vercel.app"
           newColor={"text-new-color"}
-          link="https://willtube.netlify.app/"
-          title="YouTube Clone"
-          text=" It's a personal challenge. I challenged myself  to create the YouTube application using Rapid API. This enables access to all YouTube channels and their content. Additionally, this project is responsive"
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
         />
-
         <SingleProject
           img={images.photo}
           img2={images.ona1}
@@ -77,19 +76,20 @@ const Projects = () => {
           sProjectNewBg={"sp-new-bg"}
         />
         <SingleProject
-          img={images.fd6}
-          img2={images.fd}
-          img3={images.fd3}
-          img4={images.fd5}
-          img5={images.fd4}
-          title="Fournisseur De proximié"
-          text="This is a website that highlights the various products and accessories of a supplier.This is a project where I collaborated with a designer to implement the design."
+          img={images.youtube}
+          img2={images.youtube2}
+          img3={images.youtube3}
+          img4={images.youtube2}
+          img5={images.youtube4}
           initialColor={"text-initial-color"}
-          link="https://fdp-app-client.vercel.app"
           newColor={"text-new-color"}
+          link="https://willtube.netlify.app/"
+          title="YouTube Clone"
+          text=" It's a personal challenge. I challenged myself  to create the YouTube application using Rapid API. This enables access to all YouTube channels and their content. Additionally, this project is responsive"
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
         />
+
         <SingleProject
           img={images.aesgc5}
           img2={images.aesgc3}
@@ -118,7 +118,7 @@ const Projects = () => {
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
         />
-        <SingleProject
+        {/* <SingleProject
           img={images.yanga1}
           img2={images.yanga2}
           img3={images.yanga3}
@@ -131,6 +131,21 @@ const Projects = () => {
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
           link="https://dev-gabfashion.pantheonsite.io/"
+        /> */}
+
+        <SingleProject
+          img={images.figmaToCode1}
+          img2={images.figmaToCode2}
+          img3={images.figmaToCode3}
+          img4={images.figmaToCode4}
+          img5={images.figmaToCode5}
+          title="Figma To Code Challenge"
+          text="This project is a challenge launched on LinkedIn and Twitter involving various frontend developers. The goal is to integrate 5 different Figma designs. This is the first design"
+          initialColor={"text-initial-color"}
+          newColor={"text-new-color"}
+          sProjectNInitialBg={"sp-initial-bg"}
+          sProjectNewBg={"sp-new-bg"}
+          link="https://william-hortone.netlify.app/"
         />
         <SingleProject
           img={images.linkedin}
@@ -162,20 +177,6 @@ const Projects = () => {
         />
 
         <SingleProject
-          img={images.figmaToCode1}
-          img2={images.figmaToCode2}
-          img3={images.figmaToCode3}
-          img4={images.figmaToCode4}
-          img5={images.figmaToCode5}
-          title="Figma To Code Challenge"
-          text="This project is a challenge launched on LinkedIn and Twitter involving various frontend developers. The goal is to integrate 5 different Figma designs. This is the first design"
-          initialColor={"text-initial-color"}
-          newColor={"text-new-color"}
-          sProjectNInitialBg={"sp-initial-bg"}
-          sProjectNewBg={"sp-new-bg"}
-          link="https://william-hortone.netlify.app/"
-        />
-        <SingleProject
           img={images.score1}
           img2={images.score6}
           img3={images.score3}
@@ -201,7 +202,7 @@ const Projects = () => {
           img2={images.moidzang4}
           img3={images.moidzang1}
           img4={images.moidzang3}
-          link="https://github.com/William-Hortone/moidzang-pro"
+          // link=""
         />
       </div>
       <Footer color={"color-black"} />
