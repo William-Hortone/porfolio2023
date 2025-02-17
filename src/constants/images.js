@@ -104,6 +104,11 @@ import moidzang2 from "../assets/native2.png";
 import moidzang3 from "../assets/native3.png";
 import moidzang4 from "../assets/native4.png";
 import moidzang6 from "../assets/native6.png";
+import wanTech1 from "../assets/wantech1.png";
+import wanTech2 from "../assets/wantech2.png";
+import wanTech3 from "../assets/wantech3.png";
+import wanTech4 from "../assets/wantech4.png";
+import wanTech5 from "../assets/wantech5.png";
 
 const images = {
   html,
@@ -211,7 +216,11 @@ const images = {
   moidzang2,
   moidzang3,
   moidzang4,
-
   moidzang6,
+  wanTech1,
+  wanTech2,
+  wanTech3,
+  wanTech4,
+  wanTech5,
 };
 export default images;

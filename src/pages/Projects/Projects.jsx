@@ -33,13 +33,27 @@ const Projects = () => {
       </div>
       <div className="app__projects-container section__padding">
         <SingleProject
+          img={images.wanTech1}
+          img2={images.wanTech2}
+          img3={images.wanTech3}
+          img4={images.wanTech4}
+          img5={images.wanTech5}
+          title="WanTech Agency"
+          text=" WanTech is a Digital solutions agency. In this project, I made the design and the implementation "
+          initialColor={"text-initial-color"}
+          link="https://wan-tech.vercel.app"
+          newColor={"text-new-color"}
+          sProjectNInitialBg={"sp-initial-bg"}
+          sProjectNewBg={"sp-new-bg"}
+        />
+        <SingleProject
           img={images.fd6}
           img2={images.fd}
           img3={images.fd3}
           img4={images.fd5}
           img5={images.fd4}
           title="Fournisseur De proximié"
-          text="This is a website that highlights the various products and accessories of a supplier.This is a project where I collaborated with a designer to implement the design."
+          text="This is a website that highlights the various products and accessories of a supplier.This is a project  I made and implemented and amazing design."
           initialColor={"text-initial-color"}
           link="https://fdp-app-client.vercel.app"
           newColor={"text-new-color"}
@@ -90,7 +104,7 @@ const Projects = () => {
           sProjectNewBg={"sp-new-bg"}
         />
 
-        <SingleProject
+        {/* <SingleProject
           img={images.aesgc5}
           img2={images.aesgc3}
           img3={images.aesgc}
@@ -103,7 +117,7 @@ const Projects = () => {
           newColor={"text-new-color"}
           sProjectNInitialBg={"sp-initial-bg"}
           sProjectNewBg={"sp-new-bg"}
-        />
+        /> */}
         <SingleProject
           img={images.portfolio1}
           img2={images.portfolio2}
