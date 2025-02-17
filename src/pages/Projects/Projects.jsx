@@ -125,7 +125,7 @@ const Projects = () => {
           img4={images.portfolio4}
           img5={images.portfolio3}
           title="Preview Portfolio"
-          text="In 2022, with the goal of showcasing my projects and enhancing my knowledge in front-end development, I created my first portfolio"
+          text="With the goal of showcasing my projects and enhancing my knowledge in front-end development, I created my first portfolio"
           link="https://extraordinary-kleicha-4fc06a.netlify.app/"
           initialColor={"text-initial-color"}
           newColor={"text-new-color"}
