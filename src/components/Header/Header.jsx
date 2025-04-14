@@ -6,9 +6,14 @@ import "./header.css";
 const Header = () => {
   return (
     <div className="app__header" id="home z-50">
-      <div className="app__header-logo">
-        <img src={images.logo} alt="logo img" />
+      <div className="app__header-logo  flex justify-start w-auto max-w-[20vw] sm:max-w-[12vw] md:max-w-[100px]">
+        <img
+          src={images.logo}
+          alt="logo img"
+          className="object-contain w-full h-auto"
+        />
       </div>
+
       <div className="app__header-social_media">
         {/* <a href="https://www.linkedin.com/in/william-hortone" targe="blank">
           <FaInstagram style={{ color: "red", fontSize: "20px " }} />

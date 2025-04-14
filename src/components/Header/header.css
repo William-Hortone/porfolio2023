@@ -6,10 +6,10 @@
   align-items: center;
   padding: 0 4rem;
 }
-.app__header-logo {
+/* .app__header-logo {
   width: auto;
   height: 90%;
-}
+} */
 .app__header-logo img {
   width: 100%;
   height: 100%;
@@ -25,9 +25,9 @@
     width: 100%;
     height: 120px;
   }
-  .app__header-logo {
+  /* .app__header-logo {
     height: 90%;
-  }
+  } */
 }
 @media screen and (max-width: 650px) {
   .app__header {
@@ -35,7 +35,7 @@
   }
 }
 @media screen and (max-width: 480px) {
-  .app__header-logo {
+  /* .app__header-logo {
     height: 50%;
-  }
+  } */
 }

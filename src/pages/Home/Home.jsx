@@ -11,8 +11,8 @@ import {
 const Home = () => {
   return (
     <div
-      className="app__home"
-      style={{ backgroundColor: "#0c0c0c", overflowX: "hidden" }}
+      className="app__home bg-slate-950"
+      style={{ backgrodundColor: "#0c0c0c", overflowX: "hidden" }}
     >
       <Navbar />
       <HomeSection />

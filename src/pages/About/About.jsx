@@ -13,7 +13,7 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="app__about ">
+    <div className="app__about bg-slate-950 ">
       <Navbar />
       <Header />
       <div className="app__about-title">

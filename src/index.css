@@ -14,7 +14,8 @@
   --font-base: "CustomFontFamily", serif;
   --font-alt: "Open Sans", sans-serif;
   --font-title: "Cormorant Upright", serif;
-  --color-black: #0c0c0c;
+  /* --color-black: #0c0c0c; */
+  --color-black: #020617;
   --color-grey-one: #e7e4df;
   --color-white: #ffffff;
   --color-grey: #aaaaaa;
@@ -30,7 +31,7 @@
   scroll-behavior: smooth;
 }
 body {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 a {
