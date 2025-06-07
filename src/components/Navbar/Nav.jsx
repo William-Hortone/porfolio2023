@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { FiX } from "react-icons/fi";
 import { Link } from 'react-router-dom';
+import { FaGithub, FaTwitter, FaYoutube, FaTiktok} from "react-icons/fa";
+
 const MotionLink = motion(Link);
 
 const Nav = ({ isOpen, setIsOpen }) => {
@@ -28,6 +30,22 @@ const Nav = ({ isOpen, setIsOpen }) => {
         <NavLink text="Projects" link="/projects" />
         <NavLink text="Contact" link="#contact" />
       </motion.div>
+
+      <div className="absolute flex gap-4 bottom-8 right-16">
+
+        <a href="https://www.tiktok.com/@williamhortone?_t=ZS-8wxKoI4Yleq&_r=1" targe="blank">
+          <FaTiktok style={{ color: "black", fontSize: "20px " }} />
+        </a>
+        <a href="https://github.com/William-Hortone" targe="blank">
+          <FaGithub style={{ color: "black", fontSize: "20px " }} />
+        </a>
+        <a href="https://twitter.com/williamhortone" targe="blank">
+          <FaTwitter style={{ color: "blue", fontSize: "20px " }} />
+        </a>
+        <a href="https://www.youtube.com/watch?v=D1A3qUkPmGI" targe="blank">
+          <FaYoutube style={{ color: "red", fontSize: "20px " }} />
+        </a>
+      </div>
     </motion.nav>
   );
 };
@@ -51,11 +69,12 @@ const NavLink = ({ text, link }) => {
       to={link}
     >
       {text}
+
     </MotionLink>
   );
 };
 
-// export default LiquidSideNav;
+
 
 const navVariants = {
   open: {
