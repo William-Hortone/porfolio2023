@@ -1,13 +1,11 @@
 import { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
-import { Link } from "react-router-dom";
-import { someProjects } from "../constants/data";
-import Title from "./Title/Title";
+import { allProjects } from "../constants/data";
+
 
 const CURSOR_WIDTH = 32;
 const HOVER_PADDING = 24;
-
-export const ProjectOverview = () => {
+const AllProjects = () => {
     const cursorRef = useRef(null);
 
     const handleMouseMove = (e) => {
@@ -36,51 +34,42 @@ export const ProjectOverview = () => {
             cursorEl.style.left = `${e.clientX}px`;
         }
     };
-
     return (
         <>
-
             <section
                 onMouseMove={handleMouseMove}
                 className="h-auto px-8 py-24 overflow-hidden "
             >
-                <Title title="Recent Projects" />
-                {/* <h2 className="text-3xl font-bold text-center text-black my-[10rem]">Projects</h2> */}
-                <div className="flex mt-[10rem] flex-col items-center justify-center max-w-5xl gap-8 mx-auto sm:flex-row">
-                    {someProjects.map((project, index) => (
+                <div className="grid w-full max-w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 justify-items-center">
+                    {allProjects.map((project, index) => (
                         <Card key={index} project={project} />
                     ))}
                 </div>
 
-                <div className="flex items-center mt-4 mb-[8rem] justify-center w-full">
-
-                    <Link to="/projects" className="text-center text-white link_see-more ">
-                        See more
-                    </Link>
-                </div>
-
-
                 <Cursor cursorRef={cursorRef} />
             </section>
-
-
-
         </>
-    );
-};
+    )
+}
+
+export default AllProjects
+
+
 
 const Card = ({ project }) => {
     return (
         <a
             href={project.link}
+            target="blank"
             style={{
                 backgroundImage: `url(${project.img})`,
                 backgroundPosition: "center",
+                backgroundSize: "cover",
             }}
-            className="outline-card flex aspect-square w-full flex-col justify-end overflow-hidden rounded-lg bg-neutral-400 bg-[size:100%] shadow-xl shadow-neutral-900/30 transition-[background-size] duration-500 hover:bg-[size:110%]"
+            className="outline-card  h-[300px]  flex aspect-square w-full flex-col justify-end overflow-hidden rounded-lg bg-neutral-400 bg-[size:100%] shadow-xl shadow-neutral-900/30 transition-[background-size] duration-500 hover:bg-[size:110%]"
         >
-            <div className="flex items-center justify-between p-6 pt-8 text-xl font-medium text-white pointer-events-none bg-gradient-to-t from-white to-black/0 md:text-2xl">
-                <h3>{project.title}</h3>
+            <div className="flex items-center justify-between p-6 pt-8 text-xl font-medium pointer-events-none text-neutral-700 bg-gradient-to-t from-white to-black/0 md:text-2xl">
+                <h3 className="font-fontBase ">{project.title}</h3>
                 <FiArrowRight />
             </div>
         </a>

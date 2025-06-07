@@ -5,6 +5,7 @@ import HomeSection from "./HomeSection/HomeSection";
 import Introduction from "./Introduction/Introduction";
 import WebInt from "./WebInt/WebInt";
 import RecentProjects from "./RecentProjects/RecentProjects";
+import AllProjects from "./AllProjects";
 
 export {
   AboutMe,
@@ -14,4 +15,5 @@ export {
   HomeSection,
   Introduction,
   RecentProjects,
+  AllProjects
 };

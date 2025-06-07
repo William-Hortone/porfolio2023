@@ -113,6 +113,13 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project4.jpg";
 import project3 from "../assets/project5.jpg";
 import project4 from "../assets/project6.jpg";
+import project5 from "../assets/project10.jpg";
+import project6 from "../assets/project11.jpg";
+import project7 from "../assets/project13.jpg";
+import project8 from "../assets/project13.jpg";
+import project9 from "../assets/project14.jpg";
+import project10 from "../assets/project15.jpg";
+
 
 const images = {
   html,
@@ -229,6 +236,12 @@ const images = {
   project1,
   project2,
   project3,
-  project4
+  project4,
+  project5,
+  project6,
+  project7,
+  project8,
+  project9,
+  project10
 };
 export default images;

@@ -1,11 +1,8 @@
-import React from "react";
 import { FaArrowUp } from "react-icons/fa";
-import { Navbar, SlidingText, Footer, PersonnelIntro, ProjectOverview } from "../../components";
+import { Footer, PersonnelIntro, ProjectOverview, SlidingText } from "../../components";
 import {
   HomeSection,
-  Introduction,
-  WebInt,
-  RecentProjects,
+  Introduction
 } from "../../containers";
 
 const Home = () => {

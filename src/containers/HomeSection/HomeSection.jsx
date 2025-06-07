@@ -8,15 +8,9 @@ import images from "../../constants/images";
 import "./homeSection.css";
 
 const HomeSection = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const imageRef = useRef(null);
 
-  const handleMenuToggle = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  //
   const textRef = useRef(null);
 
   useEffect(() => {
@@ -115,11 +109,9 @@ const HomeSection = () => {
 
 
   return (
-    <div className="app__homeSection ">
+    <div className="app__homeSection" id="home">
       <div className="relative flex flex-col items-center justify-center w-full h-screen overflow-hidden rounded-lg bgfred-400 bsg-slate-950">
 
-
-        {/* <HeaderOriginal /> */}
         <HeaderNav />
 
         <section className="flex flex-col items-center justify-center w-full h-full ">
@@ -146,39 +138,21 @@ const HomeSection = () => {
         <div className="relative w-full h-16 mb-16 overflow-y-hidden">
           <div className="absolute top-[100%] left-0 flex justify-between w-full h-auto px-8 bkg-slate-500 content-desc">
             <div className="flex flex-col justify-center">
-              <h4 className="text-2xl font-semibold text-white h-fit font-title">
+              <h4 className="text-2xl font-semibold text-white h-fit font-base">
                 Software Engineer
               </h4>
-              <h4 className="text-white text-md font-title">
+              <h4 className="text-white text-md font-base ">
                 FullStack Developer
               </h4>
             </div>
             <div className="flex flex-col justify-center">
-              <h4 className="text-2xl font-semibold text-white font-title">
+              <h4 className="text-2xl font-semibold text-white font-base">
                 The Futur
               </h4>
-              <h4 className="text-white text-md">is Unlimited</h4>
+              <h4 className="text-white text-md font-base">is Unlimited</h4>
             </div>
           </div>
         </div>
-
-        {/* <Header /> */}
-        {/* <NavbarOriginal isOpen={menuOpen} onClose={() => setMenuOpen(false)} /> */}
-
-        {/* <button
-          onClick={() => setMenuOpen(true)}
-          className="p-3 m-10 text-white bg-black rounded"
-        >
-          Open Menu
-        </button> */}
-
-        {/* <div className="app__homeSection-container section__padding">
-          <HeadText textContent="William" />
-          <SlidingText />
-          <HeadText textContent="Hortone" />
-        </div> */}
-
-        {/* <NavbarOriginal /> */}
       </div>
     </div>
   );
