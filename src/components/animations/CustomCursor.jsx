@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import { useEffect, useRef } from "react";
 
 export default function CustomCursor({ isActive, hovered }) {
   const cursorRef = useRef(null);

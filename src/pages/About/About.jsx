@@ -1,15 +1,12 @@
-import React from "react";
 import { FaArrowUp } from "react-icons/fa";
 import {
-  Navbar,
-  Header,
-  SlidingText,
   Footer,
-  PageTitle,
-  Title,
   HeaderNav,
+  PageTitle,
+  SlidingText,
+  Title
 } from "../../components";
-import { AboutMe, Skills, Certificate } from "../../containers";
+import { AboutMe, Certificate, Skills } from "../../containers";
 import "./about.css";
 
 const About = () => {

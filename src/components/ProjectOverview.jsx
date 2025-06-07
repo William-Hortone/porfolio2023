@@ -58,13 +58,8 @@ export const ProjectOverview = () => {
                         See more
                     </Link>
                 </div>
-
-
                 <Cursor cursorRef={cursorRef} />
             </section>
-
-
-
         </>
     );
 };

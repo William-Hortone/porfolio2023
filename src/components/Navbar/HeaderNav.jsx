@@ -18,7 +18,7 @@ const HeaderNav = () => {
                             className="object-contain w-full h-auto"
                         />
                     </div>
-                    {/* <FiArrowRight className="ml-2 mr-4" /> */}
+                 
                     <motion.button
                         whileHover={{ rotate: "180deg" }}
                         whileTap={{ scale: 0.9 }}

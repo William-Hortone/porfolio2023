@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import CustomCursor from "../animations/CustomCursor";
 import images from "../../constants/images";
-// import CustomCursor from "./CustomCursor"; // 👈
 
 export default function HeaderOriginal() {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,7 +71,6 @@ export default function HeaderOriginal() {
 
   return (
     <div className="relative z-50">
-      {/* Custom Cursor */}
       <CustomCursor isActive={isOpen} hovered={hovered} />
 
       {/* Header */}

@@ -1,16 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { CardImage, Title } from "../../components";
 import images from "../../constants/images";
 import "./certificate.css";
 
 const Certificate = () => {
-  // const [cursorX, setCursorX] = useState();
-  // const [cursorY, setCursorY] = useState();
 
-  // window.addEventListener("mousemove", (e) => {
-  //   setCursorX(e.pageX);
-  //   setCursorY(e.pageY);
-  // });
   const [isHovered, setIsHovered] = useState(false);
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
 
@@ -124,22 +118,6 @@ const Certificate = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="app__certificate-container">
-          <div className="app__certificate-left">
-            <p>
-              In January 2023, I was selected to participate in a hackathon
-              organized by Neza Tech, a company based in China. The challenge
-              was to develop a mobile or web application that teaches how to
-              play a musical instrument. My team achieved the second position.
-            </p>
-          </div>
-          <div className="app__certificate-right">
-            <div className="app__certificate-right-img">
-              <CardImage img={images.junctionCertificate} /> 
-            </div>
-          </div>
-        </div> */}
       </div>
     </>
   );

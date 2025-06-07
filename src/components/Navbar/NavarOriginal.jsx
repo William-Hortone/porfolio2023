@@ -1,12 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { CustomEase } from "gsap/CustomEase";
-// import './styles.css';
+import { useEffect, useRef, useState } from "react";
 
-// Register CustomEase if it's NOT already registered (checking the plugins array)
 gsap.registerPlugin(CustomEase);
 
-// Define the custom ease
 CustomEase.create("main", "0.65, 0.01, 0.05, 0.99");
 
 const NavbarOriginal = () => {
@@ -16,7 +13,7 @@ const NavbarOriginal = () => {
   const bgPanelRefs = useRef([]);
   const menuLinkRefs = useRef([]);
   const fadeTargetRefs = useRef([]);
-  const menuButtonRef = useRef(null);
+
   const menuButtonTextRefs = useRef([]);
   const menuButtonIconRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -24,47 +21,47 @@ const NavbarOriginal = () => {
     gsap.timeline({ defaults: { ease: "main", duration: 0.7 } })
   );
 
-  const openNav = () => {
-    setIsOpen(true);
-    const navWrap = navRef.current;
-    const overlay = overlayRef.current;
-    const menu = menuRef.current;
-    const bgPanels = bgPanelRefs.current;
-    const menuLinks = menuLinkRefs.current;
-    const fadeTargets = fadeTargetRefs.current;
-    const menuButtonTexts = menuButtonTextRefs.current;
-    const menuButtonIcon = menuButtonIconRef.current;
+  // const openNav = () => {
+  //   setIsOpen(true);
+  //   const navWrap = navRef.current;
+  //   const overlay = overlayRef.current;
+  //   const menu = menuRef.current;
+  //   const bgPanels = bgPanelRefs.current;
+  //   const menuLinks = menuLinkRefs.current;
+  //   const fadeTargets = fadeTargetRefs.current;
+  //   const menuButtonTexts = menuButtonTextRefs.current;
+  //   const menuButtonIcon = menuButtonIconRef.current;
 
-    tl.current
-      .clear()
-      .set(navWrap, { display: "block" })
-      .set(menu, { xPercent: 0 }, "<")
-      .fromTo(
-        menuButtonTexts,
-        { yPercent: 0 },
-        { yPercent: -100, stagger: 0.2 }
-      )
-      .fromTo(menuButtonIcon, { rotate: 0 }, { rotate: 315 }, "<")
-      .fromTo(overlay, { autoAlpha: 0 }, { autoAlpha: 1 }, "<")
-      .fromTo(
-        bgPanels,
-        { xPercent: 101 },
-        { xPercent: 0, stagger: 0.12, duration: 0.575 },
-        "<"
-      )
-      .fromTo(
-        menuLinks,
-        { yPercent: 140, rotate: 10 },
-        { yPercent: 0, rotate: 0, stagger: 0.05 },
-        "<+=0.35"
-      )
-      .fromTo(
-        fadeTargets,
-        { autoAlpha: 0, yPercent: 50 },
-        { autoAlpha: 1, yPercent: 0, stagger: 0.04 },
-        "<+=0.2"
-      );
-  };
+  //   tl.current
+  //     .clear()
+  //     .set(navWrap, { display: "block" })
+  //     .set(menu, { xPercent: 0 }, "<")
+  //     .fromTo(
+  //       menuButtonTexts,
+  //       { yPercent: 0 },
+  //       { yPercent: -100, stagger: 0.2 }
+  //     )
+  //     .fromTo(menuButtonIcon, { rotate: 0 }, { rotate: 315 }, "<")
+  //     .fromTo(overlay, { autoAlpha: 0 }, { autoAlpha: 1 }, "<")
+  //     .fromTo(
+  //       bgPanels,
+  //       { xPercent: 101 },
+  //       { xPercent: 0, stagger: 0.12, duration: 0.575 },
+  //       "<"
+  //     )
+  //     .fromTo(
+  //       menuLinks,
+  //       { yPercent: 140, rotate: 10 },
+  //       { yPercent: 0, rotate: 0, stagger: 0.05 },
+  //       "<+=0.35"
+  //     )
+  //     .fromTo(
+  //       fadeTargets,
+  //       { autoAlpha: 0, yPercent: 50 },
+  //       { autoAlpha: 1, yPercent: 0, stagger: 0.04 },
+  //       "<+=0.2"
+  //     );
+  // };
 
   const closeNav = () => {
     setIsOpen(false);
@@ -83,13 +80,7 @@ const NavbarOriginal = () => {
       .set(navWrap, { display: "none" });
   };
 
-  const toggleNav = () => {
-    if (isOpen) {
-      closeNav();
-    } else {
-      openNav();
-    }
-  };
+
 
   useEffect(() => {
     gsap.set(navRef.current, { display: "none" });
@@ -160,7 +151,7 @@ const NavbarOriginal = () => {
                 className="menu-list-item"
                 ref={(el) => (menuLinkRefs.current[index] = el)}
               >
-                <a href="#" className="menu-link">
+                <a href="/" className="menu-link">
                   <p
                     className="eyebrow"
                     data-menu-fade=""
@@ -191,7 +182,7 @@ const NavbarOriginal = () => {
                         ] = el)
                       }
                     >
-                      <a href="#" className="text-link">
+                      <a href="/" className="text-link">
                         {detail}
                       </a>
                     </p>
@@ -229,15 +220,5 @@ const NavbarOriginal = () => {
   );
 };
 
-// const CloneableSection = () => (
-//   <div className="cloneable">
-//     <div className="container">
-//       <h1>Your Content Here</h1>
-//       <p>This is where your main website content will go.</p>
-//     </div>
-//   </div>
-// );
-
-// export default App;
 
 export default NavbarOriginal;

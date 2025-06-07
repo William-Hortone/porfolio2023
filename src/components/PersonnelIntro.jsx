@@ -427,5 +427,3 @@ const WilliamHortone = () => {
 
 export default WilliamHortone;
 `;
-
-// export default PersonnelIntro
