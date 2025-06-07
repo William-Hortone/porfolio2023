@@ -9,8 +9,22 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "secondFontFamily";
+  src: url("./fonts/Extenda/Extenda-40-Hecto-trial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'tertiaryFontFamily';
+  src: url('https://cdn.prod.website-files.com/673af51dea86ab95d124c3ee/673b0f5784f7060c0ac05534_PPNeueCorp-TightUltrabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
+  --font-secondary: "secondFontFamily", serif;
   --font-base: "CustomFontFamily", serif;
   --font-alt: "Open Sans", sans-serif;
   --font-title: "Cormorant Upright", serif;

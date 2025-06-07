@@ -18,7 +18,7 @@
 .link_see-more {
   position: relative;
   width: fit-content;
-  color: var(--color-white);
+  /* color: var(--color-white); */
   font-size: 1.4rem;
   margin-top: 2rem;
   cursor: pointer;

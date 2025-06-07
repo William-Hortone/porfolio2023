@@ -3,7 +3,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 .app__introduction-box {
   display: flex;
@@ -22,6 +22,20 @@
   color: var(--color-white);
   font-family: var(--font-base);
 }
+.content-text {
+  overflow: hidden;
+  line-height: 2;
+}
+.content-text span {
+  display: inline-block;
+  transform: translateY(100%);
+}
+.line span {
+  display: inline-block;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
 
 @media screen and (max-width: 1000) {
   .app__introduction-box p {

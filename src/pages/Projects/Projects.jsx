@@ -3,6 +3,7 @@ import { FaArrowUp } from "react-icons/fa";
 import {
   Footer,
   Header,
+  HeaderNav,
   NativeProject,
   Navbar,
   PageTitle,
@@ -25,8 +26,9 @@ const Projects = () => {
     <div
       className={scroll ? "app__projects new-bg" : " app__projects initial-bg"}
     >
-      <Navbar />
-      <Header />
+      {/* <Navbar /> */}
+      <HeaderNav />
+      {/* <Header /> */}
       <div className="app__about-title ">
         <PageTitle textContent="Projects" />
         <span className="line" />

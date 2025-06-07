@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowUp } from "react-icons/fa";
-import { Navbar, SlidingText, Footer } from "../../components";
+import { Navbar, SlidingText, Footer, PersonnelIntro, ProjectOverview } from "../../components";
 import {
   HomeSection,
   Introduction,
@@ -14,12 +14,14 @@ const Home = () => {
       className="app__home bg-slate-950"
       style={{ backgrodundColor: "#0c0c0c", overflowX: "hidden" }}
     >
-      <Navbar />
+      {/* <Navbar /> */}
       <HomeSection />
       <Introduction />
-      <WebInt />
+      <PersonnelIntro />
+      <ProjectOverview />
+      {/* <WebInt /> */}
       <SlidingText />
-      <RecentProjects />
+      {/* <RecentProjects /> */}
       <Footer color={"color-white"} />
       <a href="#home" className="app__goToTop">
         <div className="app__goToHome">

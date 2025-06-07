@@ -4,7 +4,7 @@ import "./title.css";
 const Title = ({ title }) => {
   return (
     <div className="app__title">
-      <h2>{title}</h2>
+      <h2 className="text-white">{title}</h2>
     </div>
   );
 };

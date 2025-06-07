@@ -96,3 +96,45 @@
     font-size: 1.5rem;
   }
 }
+/*  */
+.clip-circle-small {
+  clip-path: circle(30px at 100% 0);
+  -webkit-clip-path: circle(30px at 100% 0);
+}
+
+/* .content-title::after {
+  position: absolute;
+  top: 10%;
+  left: 10px;
+  content: 'WILLIAM';
+  font-size: 2rem;
+  color: var(--color-white);
+  font-family: var(--font-alt);
+  text-transform: uppercase;
+
+} */
+.content-desc{
+  /* transform: translateY(0px); */
+  animation: showContent 1s .8s ease-in-out forwards;
+}
+@keyframes showContent {
+  to{
+    top: 0px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .content-title::after {
+    font-size: 1.4rem;
+    top: -5%;
+   
+  
+  }
+}
+@media screen and (max-width: 550px) {
+  .content-title::after {
+    font-size: 1rem;
+    top: -5%;
+   
+  
+  }
+}

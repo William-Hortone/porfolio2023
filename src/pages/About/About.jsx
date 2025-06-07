@@ -7,15 +7,16 @@ import {
   Footer,
   PageTitle,
   Title,
+  HeaderNav,
 } from "../../components";
 import { AboutMe, Skills, Certificate } from "../../containers";
 import "./about.css";
 
 const About = () => {
   return (
-    <div className="app__about bg-slate-950 ">
-      <Navbar />
-      <Header />
+    <div className="overflow-x-hidden app__about bg-slate-950 ">
+      <HeaderNav />
+      {/* <Header /> */}
       <div className="app__about-title">
         <PageTitle textContent="About-Me" />
         <span className="line" />

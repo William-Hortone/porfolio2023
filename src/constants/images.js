@@ -109,6 +109,10 @@ import wanTech2 from "../assets/wantech2.png";
 import wanTech3 from "../assets/wantech3.png";
 import wanTech4 from "../assets/wantech4.png";
 import wanTech5 from "../assets/wantech5.png";
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project4.jpg";
+import project3 from "../assets/project5.jpg";
+import project4 from "../assets/project6.jpg";
 
 const images = {
   html,
@@ -222,5 +226,9 @@ const images = {
   wanTech3,
   wanTech4,
   wanTech5,
+  project1,
+  project2,
+  project3,
+  project4
 };
 export default images;
