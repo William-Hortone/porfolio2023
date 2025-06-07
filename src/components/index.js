@@ -13,7 +13,6 @@ import SlidingText from "./SlidingText/SlidingText";
 import PageTLetter from "./PageTLetter/PageTLetter";
 import PageTitle from "./PageTitle/PageTitle";
 import NativeProject from "./nativeProject/NativeProject";
-import NavbarOriginal from "./Navbar/NavarOriginal";
 import HeaderOriginal from "./Header/HeaderOriginal";
 import CustomCursor from "./animations/CustomCursor";
 import Nav from "./Navbar/Nav";
@@ -38,7 +37,6 @@ export {
   PageTLetter,
   PageTitle,
   NativeProject,
-  NavbarOriginal,
   HeaderOriginal,
   CustomCursor,
   // CircleText,
