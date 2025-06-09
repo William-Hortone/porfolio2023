@@ -102,17 +102,7 @@
   -webkit-clip-path: circle(30px at 100% 0);
 }
 
-/* .content-title::after {
-  position: absolute;
-  top: 10%;
-  left: 10px;
-  content: 'WILLIAM';
-  font-size: 2rem;
-  color: var(--color-white);
-  font-family: var(--font-alt);
-  text-transform: uppercase;
 
-} */
 .content-desc{
   /* transform: translateY(0px); */
   animation: showContent 1s .8s ease-in-out forwards;
