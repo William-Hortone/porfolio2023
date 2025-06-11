@@ -48,11 +48,11 @@ const allProjects = [
     link: "https://willtube.netlify.app",
     img: images.project7,
   },
-  {
-    title: "Hospital Management System",
-    link: "https://score-client.vercel.app",
-    img: images.project6,
-  },
+  // {
+  //   title: "Hospital Management System",
+  //   link: "",
+  //   img: images.project6,
+  // },
   {
     title: "Figma to code Challenge",
     link: "https://william-hortone.netlify.app",
@@ -60,7 +60,7 @@ const allProjects = [
   },
   {
     title: "Score Management System",
-    link: "https://github.com/William-Hortone/school-projects/tree/main/hospital-management-system",
+    link: "https://score-client.vercel.app",
     img: images.project8,
   },
   {

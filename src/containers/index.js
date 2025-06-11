@@ -1,19 +1,13 @@
 import AboutMe from "./AboutMe/AboutMe";
+import AllProjects from "./AllProjects";
 import Certificate from "./Certificate/Certificate";
-import Skills from "./Skills/Skills";
 import HomeSection from "./HomeSection/HomeSection";
 import Introduction from "./Introduction/Introduction";
-import WebInt from "./WebInt/WebInt";
-import RecentProjects from "./RecentProjects/RecentProjects";
-import AllProjects from "./AllProjects";
+import Skills from "./Skills/Skills";
+
 
 export {
-  AboutMe,
-  Certificate,
-  Skills,
-  WebInt,
-  HomeSection,
-  Introduction,
-  RecentProjects,
-  AllProjects
+  AboutMe, AllProjects, Certificate, HomeSection,
+  Introduction, Skills,
 };
+

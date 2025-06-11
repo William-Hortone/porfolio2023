@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div
       className="app__home bg-slate-950"
-      style={{ backgrodundColor: "#0c0c0c", overflowX: "hidden" }}
+      style={{  overflowX: "hidden" }}
     >
 
       <HomeSection />
