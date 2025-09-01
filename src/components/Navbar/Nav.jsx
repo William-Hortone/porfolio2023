@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
+import { FaGithub, FaTiktok, FaYoutube } from "react-icons/fa";
 import { FiX } from "react-icons/fi";
 import { Link } from 'react-router-dom';
-import { FaGithub, FaTwitter, FaYoutube, FaTiktok} from "react-icons/fa";
 
 const MotionLink = motion(Link);
 
 const Nav = ({ isOpen, setIsOpen }) => {
   return (
     <motion.nav
-      className="fixed top-0 bottom-0 z-50 w-screen bg-white"
+      className="fixed top-0 bottom-0 z-50 w-screen max-h-screen bg-white"
       animate={isOpen ? "open" : "closed"}
       variants={navVariants}
       initial="closed"
@@ -23,12 +23,13 @@ const Nav = ({ isOpen, setIsOpen }) => {
       </motion.button>
       <motion.div
         variants={linkWrapperVariants}
-        className="absolute flex flex-col gap-4 bottom-8 left-8"
+        className="absolute flex flex-col gap-4 bottom-24 left-8"
       >
         <NavLink text="Home" link="/" />
         <NavLink text="About" link="/about" />
         <NavLink text="Projects" link="/projects" />
-        <NavLink text="Contact" link="#contact" />
+        {/* <NavLink text="Contact" link="#contact" /> */}
+        {/* <a href="#contact">Contact</a> */}
       </motion.div>
 
       <div className="absolute flex gap-4 bottom-8 right-16">
@@ -39,9 +40,9 @@ const Nav = ({ isOpen, setIsOpen }) => {
         <a href="https://github.com/William-Hortone" targe="blank">
           <FaGithub style={{ color: "black", fontSize: "20px " }} />
         </a>
-        <a href="https://twitter.com/williamhortone" targe="blank">
+        {/* <a href="https://twitter.com/williamhortone" targe="blank">
           <FaTwitter style={{ color: "blue", fontSize: "20px " }} />
-        </a>
+        </a> */}
         <a href="https://www.youtube.com/watch?v=D1A3qUkPmGI" targe="blank">
           <FaYoutube style={{ color: "red", fontSize: "20px " }} />
         </a>

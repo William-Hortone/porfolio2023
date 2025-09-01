@@ -6,7 +6,7 @@ import "./skills.css";
 
 const Skills = () => {
   return (
-    <div className="app__skills section__padding">
+    <div className="app__skills section__padding bg-slate-950">
       <Title title="Hard Skills" />
       <div className="app__skills-container">
         <div className="app__skill-container-left">

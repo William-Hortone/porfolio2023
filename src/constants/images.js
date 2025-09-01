@@ -119,6 +119,13 @@ import project7 from "../assets/project13.jpg";
 import project8 from "../assets/project13.jpg";
 import project9 from "../assets/project14.jpg";
 import project10 from "../assets/project15.jpg";
+import project12 from "../assets/project12.jpg";
+import project16 from "../assets/project16.jpg";
+import project13 from "../assets/wantechpro.jpeg";
+import neza from "../assets/neza.jpg";
+import neza2 from "../assets/neza2.jpg";
+import neza4 from "../assets/neza4.jpg";
+import neza5 from "../assets/neza5.jpg";
 
 
 const images = {
@@ -242,6 +249,14 @@ const images = {
   project7,
   project8,
   project9,
-  project10
+  project10,
+  project12,
+  project13,
+  project16,
+  neza,
+  neza2,
+  neza4,
+  neza5,
+
 };
 export default images;

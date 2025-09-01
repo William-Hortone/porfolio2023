@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+
+
+/* ================================================= */
 @font-face {
   font-family: "CustomFontFamily";
   src: url("./fonts/Redwing-Medium.otf") format("truetype");
@@ -46,6 +52,7 @@
 }
 body {
   scroll-behavior: smooth !important;
+  overflow-x: hidden;
 }
 
 a {

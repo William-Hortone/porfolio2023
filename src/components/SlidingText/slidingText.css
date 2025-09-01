@@ -12,6 +12,12 @@
   display: flex;
   align-items: center;
 }
+.app__slidingText {
+  border-top: 2px solid #7774743b;   /* Top border */
+  border-bottom: 2px solid #7774743b; /* Bottom border */
+  padding: 10px 0; /* Optional: add space so text doesn't stick to borders */
+}
+
 .sliding-content {
   display: flex;
   animation: move 15s linear infinite;

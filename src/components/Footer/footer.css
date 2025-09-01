@@ -22,7 +22,7 @@
 .footer-arrow {
   position: absolute;
   top: 0%;
-  left: 0;
+  left: 4rem;
   transform: rotate(35deg);
   font-size: 4rem;
 }

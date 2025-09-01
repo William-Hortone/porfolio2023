@@ -1,6 +1,15 @@
 .section__padding {
   padding: 4rem 6rem;
 }
+/*! .hide-scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 .flex__center {
   display: flex;
@@ -128,3 +137,9 @@
   
   }
 }
+
+
+/* -================================ */
+
+
+

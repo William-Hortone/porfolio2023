@@ -42,7 +42,7 @@ export const ProjectOverview = () => {
 
             <section
                 onMouseMove={handleMouseMove}
-                className="h-auto px-8 py-24 overflow-hidden "
+                className="h-auto px-8 py-24 overflow-hidden bg-slate-950 "
             >
                 <Title title="Recent Projects" />
                 {/* <h2 className="text-3xl font-bold text-center text-black my-[10rem]">Projects</h2> */}
