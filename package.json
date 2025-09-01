@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@gsap/react": "^2.1.2",
-    "@react-three/drei": "^10.7.4",
+    "@react-three/drei": "^9.56.5",
     "@react-three/fiber": "^9.3.0",
     "@studio-freight/lenis": "^1.0.29",
     "@testing-library/jest-dom": "^5.16.5",
