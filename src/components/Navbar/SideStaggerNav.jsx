@@ -7,19 +7,13 @@ import {
 } from "framer-motion";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-// If you're using React Router, keep this import.
-// If not, it's fine; the code below falls back to <a>.
+
 let NavLink;
 try {
-    // Optional import to avoid build errors if react-router-dom isn't installed
-    // eslint-disable-next-line global-require
+ 
     NavLink = require("react-router-dom").NavLink;
-} catch { /* no router present */ }
+} catch 
 
-/** Hide body scrollbar when desired:
-.no-scrollbar::-webkit-scrollbar { display: none; }
-.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-*/
 
 // Total number of lines on the side of the page
 const NUM_LINES = 30;
@@ -74,7 +68,7 @@ const SideStaggerNav = () => {
         >
             {Array.from({ length: NUM_LINES }, (_, i) => {
                 const lineIndex = i + 1;
-                const linkContent = byPosition.get(lineIndex); // {title, link}
+                const linkContent = byPosition.get(lineIndex); 
                 return (
                     <LinkLine
                         key={lineIndex}

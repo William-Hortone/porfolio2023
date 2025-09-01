@@ -7,7 +7,6 @@ import images from "../../constants/images";
 const sentence = "Software Engineer";
 
 const HomeSection = () => {
-  // const shouldReduceMotion = useReducedMotion();
 
   const letterVariants = {
     hidden: { y: "100%", opacity: 0, skewY: 8 },
