@@ -1,6 +1,7 @@
 import { motion, useTransform, useScroll, useMotionValue } from "framer-motion";
 import { useRef } from "react";
 import images from "../constants/images";
+import { cards } from "../constants/data";
 
 const Portfolio = () => {
   return (
@@ -153,64 +154,3 @@ const CursorLight = ({ mouseX, mouseY }) => {
 };
 
 export default Portfolio;
-
-/* ---------- SAMPLE DATA ---------- */
-// Add your real links in `href`. `images.*` come from your constants file.
-const cards = [
-  {
-    image: images.project2,
-    title: "Fournisseur de Proximité",
-    // subtitle: "Next.js + Tailwind",
-    href: "https://fdp-app-client.vercel.app/",
-    id: 1,
-  },
-  {
-    image: images.project3,
-    title: "Giritch Resto",
-    // subtitle: "3D Canvas Experiment",
-    href: "https://gericht-a.netlify.app",
-    id: 2,
-  },
-  {
-    image: images.project4,
-    title: "GTT Kouta",
-    // subtitle: "UI Component Library",
-    href: "https://curious-melba-81e493.netlify.app",
-    id: 3,
-  },
-  {
-    image: images.project1,
-    title: "RapidPay",
-    // subtitle: "Data Viz Dashboard",
-    href: "",
-    id: 4,
-  },
-  {
-    image: images.project13,
-    title: "WanTech",
-    // subtitle: "E-commerce Concept",
-    href: "https://wantechpro.com",
-    id: 5,
-  },
-  {
-    image: images.limba,
-    title: "Smart Meter",
-    // subtitle: "E-commerce Concept",
-    href: "#",
-    id: 8,
-  },
-  {
-    image: images.project12,
-    title: "Youtube Clone",
-    subtitle: "Animations Lab",
-    href: "https://willtube.netlify.app/",
-    id: 6,
-  },
-  {
-    image: images.project16,
-    title: "Ona Batiment",
-    subtitle: "Mobile App",
-    href: "https://onabatiment.com/",
-    id: 7,
-  },
-];

@@ -70,4 +70,61 @@ const allProjects = [
   },
 ];
 
-export { someProjects, allProjects };
+
+
+const cards = [
+  {
+    image: images.project2,
+    title: "Fournisseur de Proximité",
+    href: "https://fdp-app-client.vercel.app/",
+    id: 1,
+  },
+  {
+    image: images.project3,
+    title: "Giritch Resto",
+    href: "https://gericht-a.netlify.app",
+    id: 2,
+  },
+  {
+    image: images.project4,
+    title: "GTT Kouta",
+    href: "https://gttk.netlify.app",
+    id: 3,
+  },
+  {
+    image: images.project1,
+    title: "RapidPay",
+    href: "",
+    id: 4,
+  },
+  {
+    image: images.project13,
+    title: "WanTech",
+    href: "https://wantechpro.com",
+    id: 5,
+  },
+  {
+    image: images.limba,
+    title: "Smart Meter",
+    href: "#",
+    id: 8,
+  },
+  {
+    image: images.project12,
+    title: "Youtube Clone",
+    subtitle: "Animations Lab",
+    href: "https://willtube.netlify.app/",
+    id: 6,
+  },
+  {
+    image: images.project16,
+    title: "Ona Batiment",
+    subtitle: "Mobile App",
+    href: "https://onabatiment.com/",
+    id: 7,
+  },
+];
+
+
+
+export { someProjects, allProjects, cards };
