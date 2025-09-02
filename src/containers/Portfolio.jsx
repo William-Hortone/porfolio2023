@@ -71,7 +71,7 @@ const ProjectCard = ({ card }) => {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={`Open ${card.title}`}
-      className="group relative block will-change-transform"
+      className="relative block group will-change-transform"
       onMouseMove={handleMouseMove}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") e.currentTarget.click();
@@ -87,13 +87,7 @@ const ProjectCard = ({ card }) => {
       >
         {/* Image layer */}
         <motion.div
-          className="
-            absolute inset-0
-            transition-all duration-300
-            will-change-transform
-            group-hover:scale-105
-            group-hover:blur-sm
-          "
+          className="absolute inset-0 transition-all duration-300 will-change-transform group-hover:scale-105 group-hover:blur-sm"
           style={{
             backgroundImage: `url(${card.image})`,
             backgroundSize: "cover",
@@ -102,25 +96,16 @@ const ProjectCard = ({ card }) => {
         />
 
         {/* Soft dark gradient to help text pop */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+        <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
         {/* Frosted GLASS caption panel */}
         <div className="absolute inset-x-4 bottom-4">
           <div
-            className="
-              rounded-xl px-5 py-4
-              bg-white/10
-              backdrop-blur-xl
-              border border-white/20
-              ring-1 ring-white/10
-              shadow-lg shadow-black/20
-              transition-all duration-300
-              group-hover:bg-white/15 group-hover:border-white/30
-            "
+            className="px-5 py-4 transition-all duration-300 border shadow-lg rounded-xl bg-white/10 backdrop-blur-xl border-white/20 ring-1 ring-white/10 shadow-black/20 group-hover:bg-white/15 group-hover:border-white/30"
           >
             <div className="flex items-center gap-3">
-              <span className="inline-flex h-2 w-2 rounded-full bg-emerald-400 opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0" />
-              <h3 className="text-white text-2xl font-semibold tracking-tight">
+              <span className="inline-flex w-2 h-2 transition-all duration-300 translate-y-1 rounded-full opacity-0 bg-emerald-400 group-hover:opacity-100 group-hover:translate-y-0" />
+              <h3 className="text-2xl font-semibold tracking-tight text-white">
                 {card.title}
               </h3>
             </div>
@@ -132,7 +117,7 @@ const ProjectCard = ({ card }) => {
 
         {/* Shine sweep following cursor */}
         <motion.div
-          className="pointer-events-none absolute inset-0"
+          className="absolute inset-0 pointer-events-none"
           style={{
             "--x": shineX,
             "--y": shineY,
@@ -142,7 +127,7 @@ const ProjectCard = ({ card }) => {
         />
 
         {/* Border glow on hover */}
-        <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-white/10 group-hover:ring-emerald-400/40 transition duration-300" />
+        <div className="absolute inset-0 transition duration-300 pointer-events-none rounded-2xl ring-1 ring-white/10 group-hover:ring-emerald-400/40" />
 
         {/* Subtle inner highlight following cursor */}
         <CursorLight mouseX={mouseX} mouseY={mouseY} />
@@ -162,7 +147,7 @@ const CursorLight = ({ mouseX, mouseY }) => {
     <motion.div
       aria-hidden
       style={{ left: x, top: y }}
-      className="pointer-events-none absolute h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/8 blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+      className="absolute w-40 h-40 transition-opacity duration-300 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0 pointer-events-none bg-white/8 blur-2xl group-hover:opacity-100"
     />
   );
 };
@@ -206,6 +191,13 @@ const cards = [
     // subtitle: "E-commerce Concept",
     href: "https://wantechpro.com",
     id: 5,
+  },
+  {
+    image: images.limba,
+    title: "Smart Meter",
+    // subtitle: "E-commerce Concept",
+    href: "#",
+    id: 8,
   },
   {
     image: images.project12,

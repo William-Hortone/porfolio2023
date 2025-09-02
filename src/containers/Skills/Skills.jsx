@@ -22,17 +22,23 @@ const Skills = () => {
           <Skill skillTitle="react js" img={images.react} />
           <Skill skillTitle="react Native" img={images.reactNative} />
           <Skill skillTitle="Angular JS" img={images.angular} />
+          <Skill skillTitle="wordpress" img={images.wordpress} />
           <Skill skillTitle="Node js" img={images.nodejs} />
           <Skill skillTitle="Express js" img={images.express} />
           <Skill skillTitle="MongoDB" img={images.mongoDB} />
+          <Skill skillTitle="SQL" img={images.postgress} />
           <Skill skillTitle="Firebase" img={images.firebase} />
+          <Skill skillTitle="figma" img={images.figma} />
           <Skill skillTitle="tailwind css" img={images.tailwind} />
           <Skill skillTitle="bootstrap" img={images.bootstrap} />
-          <Skill skillTitle="wordpress" img={images.wordpress} />
           <Skill skillTitle="framer-motion" img={images.motion} />
+          <Skill skillTitle="GSAP" img={images.gsap} />
           <Skill skillTitle="git & Github" img={images.git} />
           <Skill skillTitle="Jira Software" img={images.jira} />
-          <Skill skillTitle="figma" img={images.figma} />
+          <Skill skillTitle="Redux" img={images.redux} />
+          <Skill skillTitle="RESTFul API" img={images.restful} />
+          <Skill skillTitle="Python" img={images.python} />
+
         </div>
       </div>
     </div>

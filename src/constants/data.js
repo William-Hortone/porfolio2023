@@ -4,7 +4,7 @@ const someProjects = [
    {
     title: "WanTech Agency",
     link: "https://wantechpro.com",
-    img: images.project5,
+    img: images.project13,
   },
   {
     title: "Fournisseur De proximié",
@@ -21,7 +21,7 @@ const allProjects = [
   {
     title: "WanTech Agency",
     link: "https://wantechpro.com",
-    img: images.project5,
+    img: images.project13,
   },
   {
     title: "Giricht Resto",

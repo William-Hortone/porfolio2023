@@ -10,9 +10,11 @@ import React, { useCallback, useEffect, useMemo, useRef, useState } from "react"
 
 let NavLink;
 try {
- 
+
     NavLink = require("react-router-dom").NavLink;
-} catch 
+} catch (error) {
+    console.log(error);
+}
 
 
 // Total number of lines on the side of the page
@@ -68,7 +70,7 @@ const SideStaggerNav = () => {
         >
             {Array.from({ length: NUM_LINES }, (_, i) => {
                 const lineIndex = i + 1;
-                const linkContent = byPosition.get(lineIndex); 
+                const linkContent = byPosition.get(lineIndex);
                 return (
                     <LinkLine
                         key={lineIndex}

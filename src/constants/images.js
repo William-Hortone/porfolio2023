@@ -63,6 +63,7 @@ import angular from "../assets/angular.png";
 import express from "../assets/express.png";
 import mongoDB from "../assets/mongoDB.png";
 import jira from "../assets/jira.png";
+import postgress from "../assets/postgress.png";
 import typeScript from "../assets/typescript.png";
 import aesgc from "../assets/aesgc.png";
 import aesgc2 from "../assets/aesgc2.png";
@@ -126,6 +127,11 @@ import neza from "../assets/neza.jpg";
 import neza2 from "../assets/neza2.jpg";
 import neza4 from "../assets/neza4.jpg";
 import neza5 from "../assets/neza5.jpg";
+import limba from "../assets/limba.png";
+import gsap from "../assets/gsap.png";
+import redux from "../assets/redux.png";
+import restful from "../assets/restapi.png";
+import python from "../assets/python-logo.png";
 
 
 const images = {
@@ -257,6 +263,12 @@ const images = {
   neza2,
   neza4,
   neza5,
+  postgress,
+  limba,
+  gsap,
+  redux,
+  restful,
+  python
 
 };
 export default images;

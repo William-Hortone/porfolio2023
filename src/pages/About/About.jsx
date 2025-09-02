@@ -99,7 +99,7 @@ const About = () => {
           </div>
           {/* <h2>Internship at Datategy: Frontend Developer</h2> */}
           <p>
-            During my six-month remote internship at Datategy, I served as a
+            During my remote internship at Datategy, I served as a
             Frontend Developer, collaborating with advanced professionals. This
             experience was a dynamic learning journey, exposing me to advanced
             coding, teamwork, and code best practices. <br />
@@ -119,7 +119,7 @@ const About = () => {
               stagger={0.03}
               size="2rem"
             >
-              Freelance Software Engineer
+              Freelance Full-Stack Developer
             </TextPressure>
           </div>
 
@@ -132,7 +132,7 @@ const About = () => {
               stagger={0.03}
               size='1.3rem'
             >
-              Since 2023, I have been working as a freelance software engineer, successfully delivering 50+ real-world projects across web development, mobile applications, and creative digital solutions.
+              Since 2023, I have been working as a freelance software engineer, successfully delivering 50+ real-world projects across web development, mobile applications.
               Currently, I am working as a freelancer at WanTech, where I focus on designing, developing, and deploying high-quality products tailored to clients’ needs.
             </TextPressure>
           </div>
