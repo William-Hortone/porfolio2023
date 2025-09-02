@@ -5,11 +5,12 @@
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@react-three/drei": "^9.56.5",
-    "@react-three/fiber": "^9.3.0",
     "@studio-freight/lenis": "^1.0.29",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
     "clsx": "^2.1.1",
     "framer-motion": "^10.0.1",
     "gsap": "^3.13.0",
