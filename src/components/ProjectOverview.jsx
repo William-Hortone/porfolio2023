@@ -68,6 +68,7 @@ const Card = ({ project }) => {
     return (
         <a
             href={project.link}
+            target="blank"
             style={{
                 backgroundImage: `url(${project.img})`,
                 backgroundPosition: "center",

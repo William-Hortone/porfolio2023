@@ -1,6 +1,5 @@
-import { motion, useTransform, useScroll, useMotionValue } from "framer-motion";
+import { motion, useMotionValue, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import images from "../constants/images";
 import { cards } from "../constants/data";
 
 const Portfolio = () => {
