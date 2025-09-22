@@ -34,8 +34,8 @@ const allProjects = [
     img: images.project2,
   },
   {
-    title: "GTTK",
-    link: "https://curious-melba-81e493.netlify.app",
+    title: "GTT Kouta",
+    link: "https://gttk.netlify.app",
     img: images.project4,
   },
   {
